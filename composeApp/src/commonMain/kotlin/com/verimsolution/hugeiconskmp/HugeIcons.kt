@@ -1,0 +1,824 @@
+package com.verimsolution.hugeiconskmp
+
+import com.verimsolution.hugeiconskmp.generated.resources.Res
+import com.verimsolution.hugeiconskmp.generated.resources._1st_bracket_circle_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources._1st_bracket_square_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources._1st_bracket_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources._24_hours_clock_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources._2nd_bracket_circle_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources._2nd_bracket_square_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources._2nd_bracket_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources._3_d_view_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources._3d_move_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources._3d_printer_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources._3d_rotate_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources._3d_scale_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources._3rd_bracket_circle_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources._3rd_bracket_square_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources._3rd_bracket_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources._4k_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources._7z_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources._7z_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.a_arrow_down_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.a_arrow_up_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.abacus_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.absolute_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.acceleration_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.access_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.accident_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.account_recovery_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.account_setting_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.account_setting_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.account_setting_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.activity_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.activity_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.activity_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.activity_04_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.activity_05_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.activity_circle_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.activity_spark_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.acute_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.add_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.add_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.add_circle_half_dot_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.add_circle_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.add_female_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.add_invoice_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.add_male_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.add_money_circle_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.add_square_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.add_team_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.add_team_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.add_to_list_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.address_book_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.adjust_position_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.adobe_after_effect_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.adobe_illustrator_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.adobe_indesign_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.adobe_photoshop_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.adobe_premier_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.adobe_xd_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.adventure_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.advertisiment_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.adzan_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.affiliate_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.agreement_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.agreement_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.agreement_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_audio_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_beautify_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_book_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_brain_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_brain_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_brain_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_brain_04_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_brain_05_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_browser_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_chat_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_chat_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_chemistry_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_chemistry_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_chemistry_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_chip_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_cloud_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_cloud_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_cloud_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_computer_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_content_generator_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_content_generator_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_dna_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_editing_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_eraser_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_file_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_folder_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_folder_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_game_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_generative_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_idea_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_image_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_innovation_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_innovation_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_innovation_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_laptop_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_learning_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_lock_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_magic_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_mail_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_mail_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_mail_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_mic_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_network_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_phone_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_phone_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_programming_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_scan_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_scheduling_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_search_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_search_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_security_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_security_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_security_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_setting_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_sheets_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_smartwatch_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_user_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_video_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_view_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_vision_recognition_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_voice_generator_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_voice_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ai_web_browsing_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.aids_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.airbnb_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.aircraft_game_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.airdrop_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.airplane_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.airplane_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.airplane_landing_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.airplane_landing_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.airplane_mode_off_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.airplane_mode_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.airplane_seat_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.airplane_seat_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.airplane_take_off_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.airplane_take_off_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.airplay_line_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.airpod_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.airpod_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.airpod_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.airport_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.airport_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.airport_tower_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.al_aqsa_mosque_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alarm_clock_off_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alarm_clock_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alarm_smoke_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.album_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.album_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.album_not_found_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.album_not_found_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.album_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alert_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alert_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alert_circle_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alert_diamond_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alert_square_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.algorithm_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alien_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alien_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_bottom_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_box_bottom_center_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_box_bottom_left_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_box_bottom_right_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_box_middle_center_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_box_middle_right_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_box_top_center_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_box_top_left_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_box_top_right_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_horizontal_center_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_horizontal_distribute_end_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_horizontal_distribute_start_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_horizontal_justify_end_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_horizontal_justify_start_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_horizontal_space_around_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_horizontal_space_between_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_key_object_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_left_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_right_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_selection_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_top_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_vertical_center_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_vertical_distribute_center_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_vertical_distribute_end_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_vertical_distribute_start_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_vertical_justify_start_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.align_vertical_space_between_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.all_bookmark_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.allah_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alms_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alpha_circle_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alpha_square_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alpha_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alphabet_arabic_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alphabet_bangla_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alphabet_chinese_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alphabet_hebrew_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alphabet_hindi_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alphabet_japanese_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alphabet_korean_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.alphabet_thai_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.amazon_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ambulance_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.american_football_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.amie_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ammo_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.amphora_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.ampoule_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.analysis_text_link_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.analytics_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.analytics_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.analytics_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.analytics_down_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.analytics_up_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.anchor_point_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.anchor_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.android_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.angel_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.angle_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.angle_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.angry_bird_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.angry_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.anonymous_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.antenna_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.anvil_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.apartment_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.api_gateway_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.api_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.app_store_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.apple_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.apple_finder_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.apple_intelligence_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.apple_music_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.apple_news_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.apple_pie_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.apple_reminder_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.apple_stocks_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.apple_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.apple_vision_pro_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.appointment_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.appointment_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.approximately_equal_circle_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.approximately_equal_square_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.approximately_equal_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.apricot_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.apron_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arc_browser_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.archer_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.archive_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.archive_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.archive_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.archive_04_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.archive_arrow_up_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.archive_off_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.archive_off_04_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.archive_restore_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.archive_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.armored_boot_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrange_by_letters_a_z_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrange_by_letters_z_a_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrange_by_numbers_1_9_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrange_by_numbers_9_1_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrange_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_all_direction_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_big_down_dash_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_big_left_dash_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_big_right_dash_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_big_up_dash_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_data_transfer_diagonal_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_data_transfer_horizontal_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_data_transfer_vertical_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_diagonal_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_down_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_down_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_down_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_down_04_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_down_05_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_down_0_1_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_down_1_0_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_down_a_z_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_down_big_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_down_double_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_down_from_line_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_down_left_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_down_left_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_down_right_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_down_right_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_down_to_dot_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_expand_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_expand_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_expand_diagonal_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_expand_diagonal_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_expand_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_horizontal_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_left_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_left_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_left_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_left_04_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_left_05_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_left_big_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_left_double_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_left_from_line_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_left_right_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_move_down_left_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_move_down_right_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_move_left_down_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_move_right_down_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_move_up_left_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_move_up_right_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_reload_horizontal_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_reload_vertical_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_right_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_right_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_right_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_right_04_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_right_05_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_right_big_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_right_double_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_right_from_line_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_shrink_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_shrink_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_shrink_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_turn_backward_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_turn_down_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_turn_forward_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_turn_up_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_04_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_05_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_0_1_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_1_0_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_big_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_double_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_down_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_from_dot_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_from_line_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_left_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_left_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_narrow_wide_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_right_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_right_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_right_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_right_stack_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_wide_narrow_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_up_z_a_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.arrow_vertical_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.artboard_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.artboard_tool_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.artificial_intelligence_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.artificial_intelligence_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.artificial_intelligence_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.artificial_intelligence_04_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.artificial_intelligence_05_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.artificial_intelligence_06_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.artificial_intelligence_07_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.artificial_intelligence_08_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.aspect_ratio_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.assignments_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.asterisk_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.asterisk_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.asteroid_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.asteroid_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.astronaut_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.astronaut_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.at_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.atm_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.atm_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.atom_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.atom_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.atomic_power_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.attachment_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.attachment_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.attachment_circle_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.attachment_square_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.attachment_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.auction_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.audio_book_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.audio_book_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.audio_book_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.audio_book_04_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.audio_wave_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.audio_wave_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.audit_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.audit_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.augmented_reality_ar_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.authorized_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.auto_conversations_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.automotive_battery_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.automotive_battery_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.avalanche_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.avocado_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.award_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.award_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.award_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.award_04_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.award_05_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.aws_lambda_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.axe_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.axis_3d_stroke_rounded
+
+object HugeIcons {
+    val FirstBracketIcon get() = Res.drawable._1st_bracket_stroke_rounded
+    val FirstBracketCircleIcon get() = Res.drawable._1st_bracket_circle_stroke_rounded
+    val FirstBracketSquareIcon get() = Res.drawable._1st_bracket_square_stroke_rounded
+    val _24HoursClockIcon get() = Res.drawable._24_hours_clock_stroke_rounded
+    val SecondBracketIcon get() = Res.drawable._2nd_bracket_stroke_rounded
+    val SecondBracketCircleIcon get() = Res.drawable._2nd_bracket_circle_stroke_rounded
+    val SecondBracketSquareIcon get() = Res.drawable._2nd_bracket_square_stroke_rounded
+    val ThreeDMoveIcon get() = Res.drawable._3d_move_stroke_rounded
+    val ThreeDPrinterIcon get() = Res.drawable._3d_printer_stroke_rounded
+    val ThreeDRotateIcon get() = Res.drawable._3d_rotate_stroke_rounded
+    val ThreeDScaleIcon get() = Res.drawable._3d_scale_stroke_rounded
+    val ThreeDViewIcon get() = Res.drawable._3_d_view_stroke_rounded
+    val ThirdBracketIcon get() = Res.drawable._3rd_bracket_stroke_rounded
+    val ThirdBracketCircleIcon get() = Res.drawable._3rd_bracket_circle_stroke_rounded
+    val ThirdBracketSquareIcon get() = Res.drawable._3rd_bracket_square_stroke_rounded
+    val FourKIcon get() = Res.drawable._4k_stroke_rounded
+    val SevenZ01Icon get() = Res.drawable._7z_01_stroke_rounded
+    val SevenZ02Icon get() = Res.drawable._7z_02_stroke_rounded
+    val AArrowDownIcon get() = Res.drawable.a_arrow_down_stroke_rounded
+    val AArrowUpIcon get() = Res.drawable.a_arrow_up_stroke_rounded
+    val AbacusIcon get() = Res.drawable.abacus_stroke_rounded
+    val AbsoluteIcon get() = Res.drawable.absolute_stroke_rounded
+    val AccelerationIcon get() = Res.drawable.acceleration_stroke_rounded
+    val AccessIcon get() = Res.drawable.access_stroke_rounded
+    val AccidentIcon get() = Res.drawable.accident_stroke_rounded
+    val AccountRecoveryIcon get() = Res.drawable.account_recovery_stroke_rounded
+    val AccountSetting01Icon get() = Res.drawable.account_setting_01_stroke_rounded
+    val AccountSetting02Icon get() = Res.drawable.account_setting_02_stroke_rounded
+    val AccountSetting03Icon get() = Res.drawable.account_setting_03_stroke_rounded
+    val Activity01Icon get() = Res.drawable.activity_01_stroke_rounded
+    val Activity02Icon get() = Res.drawable.activity_02_stroke_rounded
+    val Activity03Icon get() = Res.drawable.activity_03_stroke_rounded
+    val Activity04Icon get() = Res.drawable.activity_04_stroke_rounded
+    val Activity05Icon get() = Res.drawable.activity_05_stroke_rounded
+    val ActivityCircleIcon get() = Res.drawable.activity_circle_stroke_rounded
+    val ActivitySparkIcon get() = Res.drawable.activity_spark_stroke_rounded
+    val AcuteIcon get() = Res.drawable.acute_stroke_rounded
+    val Add01Icon get() = Res.drawable.add_01_stroke_rounded
+    val Add02Icon get() = Res.drawable.add_02_stroke_rounded
+    val AddCircleIcon get() = Res.drawable.add_circle_stroke_rounded
+    val AddCircleHalfDotIcon get() = Res.drawable.add_circle_half_dot_stroke_rounded
+    val AddFemaleIcon get() = Res.drawable.add_female_stroke_rounded
+    val AddInvoiceIcon get() = Res.drawable.add_invoice_stroke_rounded
+    val AddMaleIcon get() = Res.drawable.add_male_stroke_rounded
+    val AddMoneyCircleIcon get() = Res.drawable.add_money_circle_stroke_rounded
+    val AddressBookIcon get() = Res.drawable.address_book_stroke_rounded
+    val AddSquareIcon get() = Res.drawable.add_square_stroke_rounded
+    val AddTeamIcon get() = Res.drawable.add_team_stroke_rounded
+    val AddTeam02Icon get() = Res.drawable.add_team_02_stroke_rounded
+    val AddToListIcon get() = Res.drawable.add_to_list_stroke_rounded
+    val AdjustPositionIcon get() = Res.drawable.adjust_position_stroke_rounded
+    val AdobeAfterEffectIcon get() = Res.drawable.adobe_after_effect_stroke_rounded
+    val AdobeIllustratorIcon get() = Res.drawable.adobe_illustrator_stroke_rounded
+    val AdobeIndesignIcon get() = Res.drawable.adobe_indesign_stroke_rounded
+    val AdobePhotoshopIcon get() = Res.drawable.adobe_photoshop_stroke_rounded
+    val AdobePremierIcon get() = Res.drawable.adobe_premier_stroke_rounded
+    val AdobeXdIcon get() = Res.drawable.adobe_xd_stroke_rounded
+    val AdventureIcon get() = Res.drawable.adventure_stroke_rounded
+    val AdvertisimentIcon get() = Res.drawable.advertisiment_stroke_rounded
+    val AdzanIcon get() = Res.drawable.adzan_stroke_rounded
+    val AffiliateIcon get() = Res.drawable.affiliate_stroke_rounded
+    val Agreement01Icon get() = Res.drawable.agreement_01_stroke_rounded
+    val Agreement02Icon get() = Res.drawable.agreement_02_stroke_rounded
+    val Agreement03Icon get() = Res.drawable.agreement_03_stroke_rounded
+    val AiAudioIcon get() = Res.drawable.ai_audio_stroke_rounded
+    val AiBeautifyIcon get() = Res.drawable.ai_beautify_stroke_rounded
+    val AiBookIcon get() = Res.drawable.ai_book_stroke_rounded
+    val AiBrain01Icon get() = Res.drawable.ai_brain_01_stroke_rounded
+    val AiBrain02Icon get() = Res.drawable.ai_brain_02_stroke_rounded
+    val AiBrain03Icon get() = Res.drawable.ai_brain_03_stroke_rounded
+    val AiBrain04Icon get() = Res.drawable.ai_brain_04_stroke_rounded
+    val AiBrain05Icon get() = Res.drawable.ai_brain_05_stroke_rounded
+    val AiBrowserIcon get() = Res.drawable.ai_browser_stroke_rounded
+    val AiChat01Icon get() = Res.drawable.ai_chat_01_stroke_rounded
+    val AiChat02Icon get() = Res.drawable.ai_chat_02_stroke_rounded
+    val AiChemistry01Icon get() = Res.drawable.ai_chemistry_01_stroke_rounded
+    val AiChemistry02Icon get() = Res.drawable.ai_chemistry_02_stroke_rounded
+    val AiChemistry03Icon get() = Res.drawable.ai_chemistry_03_stroke_rounded
+    val AiChipIcon get() = Res.drawable.ai_chip_stroke_rounded
+    val AiCloudIcon get() = Res.drawable.ai_cloud_stroke_rounded
+    val AiCloud01Icon get() = Res.drawable.ai_cloud_01_stroke_rounded
+    val AiCloud02Icon get() = Res.drawable.ai_cloud_02_stroke_rounded
+    val AiComputerIcon get() = Res.drawable.ai_computer_stroke_rounded
+    val AiContentGenerator01Icon get() = Res.drawable.ai_content_generator_01_stroke_rounded
+    val AiContentGenerator02Icon get() = Res.drawable.ai_content_generator_02_stroke_rounded
+    val AiDnaIcon get() = Res.drawable.ai_dna_stroke_rounded
+    val AidsIcon get() = Res.drawable.aids_stroke_rounded
+    val AiEditingIcon get() = Res.drawable.ai_editing_stroke_rounded
+    val AiEraserIcon get() = Res.drawable.ai_eraser_stroke_rounded
+    val AiFileIcon get() = Res.drawable.ai_file_stroke_rounded
+    val AiFolder01Icon get() = Res.drawable.ai_folder_01_stroke_rounded
+    val AiFolder02Icon get() = Res.drawable.ai_folder_02_stroke_rounded
+    val AiGameIcon get() = Res.drawable.ai_game_stroke_rounded
+    val AiGenerativeIcon get() = Res.drawable.ai_generative_stroke_rounded
+    val AiIdeaIcon get() = Res.drawable.ai_idea_stroke_rounded
+    val AiImageIcon get() = Res.drawable.ai_image_stroke_rounded
+    val AiInnovation01Icon get() = Res.drawable.ai_innovation_01_stroke_rounded
+    val AiInnovation02Icon get() = Res.drawable.ai_innovation_02_stroke_rounded
+    val AiInnovation03Icon get() = Res.drawable.ai_innovation_03_stroke_rounded
+    val AiLaptopIcon get() = Res.drawable.ai_laptop_stroke_rounded
+    val AiLearningIcon get() = Res.drawable.ai_learning_stroke_rounded
+    val AiLockIcon get() = Res.drawable.ai_lock_stroke_rounded
+    val AiMagicIcon get() = Res.drawable.ai_magic_stroke_rounded
+    val AiMailIcon get() = Res.drawable.ai_mail_stroke_rounded
+    val AiMail01Icon get() = Res.drawable.ai_mail_01_stroke_rounded
+    val AiMail02Icon get() = Res.drawable.ai_mail_02_stroke_rounded
+    val AiMicIcon get() = Res.drawable.ai_mic_stroke_rounded
+    val AiNetworkIcon get() = Res.drawable.ai_network_stroke_rounded
+    val AiPhone01Icon get() = Res.drawable.ai_phone_01_stroke_rounded
+    val AiPhone02Icon get() = Res.drawable.ai_phone_02_stroke_rounded
+    val AiProgrammingIcon get() = Res.drawable.ai_programming_stroke_rounded
+    val AirbnbIcon get() = Res.drawable.airbnb_stroke_rounded
+    val AircraftGameIcon get() = Res.drawable.aircraft_game_stroke_rounded
+    val AirdropIcon get() = Res.drawable.airdrop_stroke_rounded
+    val Airplane01Icon get() = Res.drawable.airplane_01_stroke_rounded
+    val Airplane02Icon get() = Res.drawable.airplane_02_stroke_rounded
+    val AirplaneLanding01Icon get() = Res.drawable.airplane_landing_01_stroke_rounded
+    val AirplaneLanding02Icon get() = Res.drawable.airplane_landing_02_stroke_rounded
+    val AirplaneModeIcon get() = Res.drawable.airplane_mode_stroke_rounded
+    val AirplaneModeOffIcon get() = Res.drawable.airplane_mode_off_stroke_rounded
+    val AirplaneSeatIcon get() = Res.drawable.airplane_seat_stroke_rounded
+    val AirplaneSeat02Icon get() = Res.drawable.airplane_seat_02_stroke_rounded
+    val AirplaneTakeOff01Icon get() = Res.drawable.airplane_take_off_01_stroke_rounded
+    val AirplaneTakeOff02Icon get() = Res.drawable.airplane_take_off_02_stroke_rounded
+    val AirplayLineIcon get() = Res.drawable.airplay_line_stroke_rounded
+    val Airpod01Icon get() = Res.drawable.airpod_01_stroke_rounded
+    val Airpod02Icon get() = Res.drawable.airpod_02_stroke_rounded
+    val Airpod03Icon get() = Res.drawable.airpod_03_stroke_rounded
+    val AirportIcon get() = Res.drawable.airport_stroke_rounded
+    val Airport02Icon get() = Res.drawable.airport_02_stroke_rounded
+    val AirportTowerIcon get() = Res.drawable.airport_tower_stroke_rounded
+    val AiScanIcon get() = Res.drawable.ai_scan_stroke_rounded
+    val AiSchedulingIcon get() = Res.drawable.ai_scheduling_stroke_rounded
+    val AiSearchIcon get() = Res.drawable.ai_search_stroke_rounded
+    val AiSearch02Icon get() = Res.drawable.ai_search_02_stroke_rounded
+    val AiSecurity01Icon get() = Res.drawable.ai_security_01_stroke_rounded
+    val AiSecurity02Icon get() = Res.drawable.ai_security_02_stroke_rounded
+    val AiSecurity03Icon get() = Res.drawable.ai_security_03_stroke_rounded
+    val AiSettingIcon get() = Res.drawable.ai_setting_stroke_rounded
+    val AiSheetsIcon get() = Res.drawable.ai_sheets_stroke_rounded
+    val AiSmartwatchIcon get() = Res.drawable.ai_smartwatch_stroke_rounded
+    val AiUserIcon get() = Res.drawable.ai_user_stroke_rounded
+    val AiVideoIcon get() = Res.drawable.ai_video_stroke_rounded
+    val AiViewIcon get() = Res.drawable.ai_view_stroke_rounded
+    val AiVisionRecognitionIcon get() = Res.drawable.ai_vision_recognition_stroke_rounded
+    val AiVoiceIcon get() = Res.drawable.ai_voice_stroke_rounded
+    val AiVoiceGeneratorIcon get() = Res.drawable.ai_voice_generator_stroke_rounded
+    val AiWebBrowsingIcon get() = Res.drawable.ai_web_browsing_stroke_rounded
+    val AlAqsaMosqueIcon get() = Res.drawable.al_aqsa_mosque_stroke_rounded
+    val AlarmClockIcon get() = Res.drawable.alarm_clock_stroke_rounded
+    val AlarmClockOffIcon get() = Res.drawable.alarm_clock_off_stroke_rounded
+    val AlarmSmokeIcon get() = Res.drawable.alarm_smoke_stroke_rounded
+    val AlbumIcon get() = Res.drawable.album_stroke_rounded
+    val Album01Icon get() = Res.drawable.album_01_stroke_rounded
+    val Album02Icon get() = Res.drawable.album_02_stroke_rounded
+    val AlbumNotFound01Icon get() = Res.drawable.album_not_found_01_stroke_rounded
+    val AlbumNotFound02Icon get() = Res.drawable.album_not_found_02_stroke_rounded
+    val Alert01Icon get() = Res.drawable.alert_01_stroke_rounded
+    val Alert02Icon get() = Res.drawable.alert_02_stroke_rounded
+    val AlertCircleIcon get() = Res.drawable.alert_circle_stroke_rounded
+    val AlertDiamondIcon get() = Res.drawable.alert_diamond_stroke_rounded
+    val AlertSquareIcon get() = Res.drawable.alert_square_stroke_rounded
+    val AlgorithmIcon get() = Res.drawable.algorithm_stroke_rounded
+    val Alien01Icon get() = Res.drawable.alien_01_stroke_rounded
+    val Alien02Icon get() = Res.drawable.alien_02_stroke_rounded
+    val AlignBottomIcon get() = Res.drawable.align_bottom_stroke_rounded
+    val AlignBoxBottomCenterIcon get() = Res.drawable.align_box_bottom_center_stroke_rounded
+    val AlignBoxBottomLeftIcon get() = Res.drawable.align_box_bottom_left_stroke_rounded
+    val AlignBoxBottomRightIcon get() = Res.drawable.align_box_bottom_right_stroke_rounded
+    val AlignBoxMiddleCenterIcon get() = Res.drawable.align_box_middle_center_stroke_rounded
+    val AlignBoxMiddleLeftIcon get() = Res.drawable.align_box_middle_center_stroke_rounded
+    val AlignBoxMiddleRightIcon get() = Res.drawable.align_box_middle_right_stroke_rounded
+    val AlignBoxTopCenterIcon get() = Res.drawable.align_box_top_center_stroke_rounded
+    val AlignBoxTopLeftIcon get() = Res.drawable.align_box_top_left_stroke_rounded
+    val AlignBoxTopRightIcon get() = Res.drawable.align_box_top_right_stroke_rounded
+    val AlignHorizontalCenterIcon get() = Res.drawable.align_horizontal_center_stroke_rounded
+    val AlignHorizontalDistributeEndIcon get() = Res.drawable.align_horizontal_distribute_end_stroke_rounded
+    val AlignHorizontalDistributeStartIcon get() = Res.drawable.align_horizontal_distribute_start_stroke_rounded
+    val AlignHorizontalJustifyEndIcon get() = Res.drawable.align_horizontal_justify_end_stroke_rounded
+    val AlignHorizontalJustifyStartIcon get() = Res.drawable.align_horizontal_justify_start_stroke_rounded
+    val AlignHorizontalSpaceAroundIcon get() = Res.drawable.align_horizontal_space_around_stroke_rounded
+    val AlignHorizontalSpaceBetweenIcon get() = Res.drawable.align_horizontal_space_between_stroke_rounded
+    val AlignKeyObjectIcon get() = Res.drawable.align_key_object_stroke_rounded
+    val AlignLeftIcon get() = Res.drawable.align_left_stroke_rounded
+    val AlignRightIcon get() = Res.drawable.align_right_stroke_rounded
+    val AlignSelectionIcon get() = Res.drawable.align_selection_stroke_rounded
+    val AlignTopIcon get() = Res.drawable.align_top_stroke_rounded
+    val AlignVerticalCenterIcon get() = Res.drawable.align_vertical_center_stroke_rounded
+    val AlignVerticalDistributeCenterIcon get() = Res.drawable.align_vertical_distribute_center_stroke_rounded
+    val AlignVerticalDistributeEndIcon get() = Res.drawable.align_vertical_distribute_end_stroke_rounded
+    val AlignVerticalDistributeStartIcon get() = Res.drawable.align_vertical_distribute_start_stroke_rounded
+    val AlignVerticalJustifyStartIcon get() = Res.drawable.align_vertical_justify_start_stroke_rounded
+    val AlignVerticalSpaceBetweenIcon get() = Res.drawable.align_vertical_space_between_stroke_rounded
+    val AllahIcon get() = Res.drawable.allah_stroke_rounded
+    val AllBookmarkIcon get() = Res.drawable.all_bookmark_stroke_rounded
+    val AlmsIcon get() = Res.drawable.alms_stroke_rounded
+    val AlphaIcon get() = Res.drawable.alpha_stroke_rounded
+    val AlphabetArabicIcon get() = Res.drawable.alphabet_arabic_stroke_rounded
+    val AlphabetGreekIcon get() = Res.drawable.alphabet_bangla_stroke_rounded
+    val AlphabetChineseIcon get() = Res.drawable.alphabet_chinese_stroke_rounded
+    val AlphabetHebrewIcon get() = Res.drawable.alphabet_hebrew_stroke_rounded
+    val AlphabetHindiIcon get() = Res.drawable.alphabet_hindi_stroke_rounded
+    val AlphabetJapaneseIcon get() = Res.drawable.alphabet_japanese_stroke_rounded
+    val AlphabetKoreanIcon get() = Res.drawable.alphabet_korean_stroke_rounded
+    val AlphabetThaiIcon get() = Res.drawable.alphabet_thai_stroke_rounded
+    val AlphaCircleIcon get() = Res.drawable.alpha_circle_stroke_rounded
+    val AlphaSquareIcon get() = Res.drawable.alpha_square_stroke_rounded
+    val AmazonIcon get() = Res.drawable.amazon_stroke_rounded
+    val AmbulanceIcon get() = Res.drawable.ambulance_stroke_rounded
+    val AmericanFootballIcon get() = Res.drawable.american_football_stroke_rounded
+    val AmieIcon get() = Res.drawable.amie_stroke_rounded
+    val AmmoIcon get() = Res.drawable.ammo_stroke_rounded
+    val AmphoraIcon get() = Res.drawable.amphora_stroke_rounded
+    val AmpouleIcon get() = Res.drawable.ampoule_stroke_rounded
+    val AnalysisTextLinkIcon get() = Res.drawable.analysis_text_link_stroke_rounded
+    val Analytics01Icon get() = Res.drawable.analytics_01_stroke_rounded
+    val Analytics02Icon get() = Res.drawable.analytics_02_stroke_rounded
+    val Analytics03Icon get() = Res.drawable.analytics_03_stroke_rounded
+    val AnalyticsDownIcon get() = Res.drawable.analytics_down_stroke_rounded
+    val AnalyticsUpIcon get() = Res.drawable.analytics_up_stroke_rounded
+    val AnchorIcon get() = Res.drawable.anchor_stroke_rounded
+    val AnchorPointIcon get() = Res.drawable.anchor_point_stroke_rounded
+    val AndroidIcon get() = Res.drawable.android_stroke_rounded
+    val AngelIcon get() = Res.drawable.angel_stroke_rounded
+    val AngleIcon get() = Res.drawable.angle_stroke_rounded
+    val Angle01Icon get() = Res.drawable.angle_01_stroke_rounded
+    val AngryIcon get() = Res.drawable.angry_stroke_rounded
+    val AngryBirdIcon get() = Res.drawable.angry_bird_stroke_rounded
+    val AnonymousIcon get() = Res.drawable.anonymous_stroke_rounded
+    val AntennaIcon get() = Res.drawable.antenna_stroke_rounded
+    val AnvilIcon get() = Res.drawable.anvil_stroke_rounded
+    val ApartmentIcon get() = Res.drawable.apartment_stroke_rounded
+    val ApiIcon get() = Res.drawable.api_stroke_rounded
+    val ApiGatewayIcon get() = Res.drawable.api_gateway_stroke_rounded
+    val AppleIcon get() = Res.drawable.apple_stroke_rounded
+    val Apple01Icon get() = Res.drawable.apple_01_stroke_rounded
+    val AppleFinderIcon get() = Res.drawable.apple_finder_stroke_rounded
+    val AppleIntelligenceIcon get() = Res.drawable.apple_intelligence_stroke_rounded
+    val AppleMusicIcon get() = Res.drawable.apple_music_stroke_rounded
+    val AppleNewsIcon get() = Res.drawable.apple_news_stroke_rounded
+    val ApplePieIcon get() = Res.drawable.apple_pie_stroke_rounded
+    val AppleReminderIcon get() = Res.drawable.apple_reminder_stroke_rounded
+    val AppleStocksIcon get() = Res.drawable.apple_stocks_stroke_rounded
+    val AppleVisionProIcon get() = Res.drawable.apple_vision_pro_stroke_rounded
+    val Appointment01Icon get() = Res.drawable.appointment_01_stroke_rounded
+    val Appointment02Icon get() = Res.drawable.appointment_02_stroke_rounded
+    val ApproximatelyEqualIcon get() = Res.drawable.approximately_equal_stroke_rounded
+    val ApproximatelyEqualCircleIcon get() = Res.drawable.approximately_equal_circle_stroke_rounded
+    val ApproximatelyEqualSquareIcon get() = Res.drawable.approximately_equal_square_stroke_rounded
+    val AppStoreIcon get() = Res.drawable.app_store_stroke_rounded
+    val ApricotIcon get() = Res.drawable.apricot_stroke_rounded
+    val ApronIcon get() = Res.drawable.apron_stroke_rounded
+    val ArcBrowserIcon get() = Res.drawable.arc_browser_stroke_rounded
+    val ArcherIcon get() = Res.drawable.archer_stroke_rounded
+    val ArchiveIcon get() = Res.drawable.archive_stroke_rounded
+    val Archive01Icon get() = Res.drawable.archive_01_stroke_rounded
+    val Archive02Icon get() = Res.drawable.archive_02_stroke_rounded
+    val Archive03Icon get() = Res.drawable.archive_03_stroke_rounded
+    val Archive04Icon get() = Res.drawable.archive_04_stroke_rounded
+    val ArchiveArrowDownIcon get() = Res.drawable.a_arrow_down_stroke_rounded
+    val ArchiveArrowUpIcon get() = Res.drawable.archive_arrow_up_stroke_rounded
+    val ArchiveOff03Icon get() = Res.drawable.archive_off_03_stroke_rounded
+    val ArchiveOff04Icon get() = Res.drawable.archive_off_04_stroke_rounded
+    val ArchiveRestoreIcon get() = Res.drawable.archive_restore_stroke_rounded
+    val ArmoredBootIcon get() = Res.drawable.armored_boot_stroke_rounded
+    val ArrangeIcon get() = Res.drawable.arrange_stroke_rounded
+    val ArrangeByLettersAZIcon get() = Res.drawable.arrange_by_letters_a_z_stroke_rounded
+    val ArrangeByLettersZAIcon get() = Res.drawable.arrange_by_letters_z_a_stroke_rounded
+    val ArrangeByNumbers19Icon get() = Res.drawable.arrange_by_numbers_1_9_stroke_rounded
+    val ArrangeByNumbers91Icon get() = Res.drawable.arrange_by_numbers_9_1_stroke_rounded
+    val ArrowAllDirectionIcon get() = Res.drawable.arrow_all_direction_stroke_rounded
+    val ArrowBigDownDashIcon get() = Res.drawable.arrow_big_down_dash_stroke_rounded
+    val ArrowBigLeftDashIcon get() = Res.drawable.arrow_big_left_dash_stroke_rounded
+    val ArrowBigRightDashIcon get() = Res.drawable.arrow_big_right_dash_stroke_rounded
+    val ArrowBigUpDashIcon get() = Res.drawable.arrow_big_up_dash_stroke_rounded
+    val ArrowDataTransferDiagonalIcon get() = Res.drawable.arrow_data_transfer_diagonal_stroke_rounded
+    val ArrowDataTransferHorizontalIcon get() = Res.drawable.arrow_data_transfer_horizontal_stroke_rounded
+    val ArrowDataTransferVerticalIcon get() = Res.drawable.arrow_data_transfer_vertical_stroke_rounded
+    val ArrowDiagonalIcon get() = Res.drawable.arrow_diagonal_stroke_rounded
+    val ArrowDownIcon get() = Res.drawable.arrow_down_0_1_stroke_rounded
+    val ArrowDown01Icon get() = Res.drawable.arrow_down_01_stroke_rounded
+    val ArrowDown02Icon get() = Res.drawable.arrow_down_02_stroke_rounded
+    val ArrowDown03Icon get() = Res.drawable.arrow_down_03_stroke_rounded
+    val ArrowDown04Icon  get() = Res.drawable.arrow_down_04_stroke_rounded
+    val ArrowDown05Icon get() = Res.drawable.arrow_down_05_stroke_rounded
+    val ArrowDown10Icon get() = Res.drawable.arrow_down_1_0_stroke_rounded
+    val ArrowDownAZIcon get() = Res.drawable.arrow_down_a_z_stroke_rounded
+    val ArrowDownBigIcon get() = Res.drawable.arrow_down_big_stroke_rounded
+    val ArrowDownDoubleIcon get() = Res.drawable.arrow_down_double_stroke_rounded
+    val ArrowDownFromLineIcon get() = Res.drawable.arrow_down_from_line_stroke_rounded
+    val ArrowDownLeft01Icon get() = Res.drawable.arrow_down_left_01_stroke_rounded
+    val ArrowDownLeft02Icon get() = Res.drawable.arrow_down_left_02_stroke_rounded
+    val ArrowDownRight01Icon get() = Res.drawable.arrow_down_right_01_stroke_rounded
+    val ArrowDownRight02Icon get() = Res.drawable.arrow_down_right_02_stroke_rounded
+    val ArrowDownToDotIcon get() = Res.drawable.arrow_down_to_dot_stroke_rounded
+    val ArrowExpandIcon get() = Res.drawable.arrow_expand_stroke_rounded
+    val ArrowExpand01Icon get() = Res.drawable.arrow_expand_01_stroke_rounded
+    val ArrowExpand02Icon get() = Res.drawable.arrow_expand_02_stroke_rounded
+    val ArrowExpandDiagonal01Icon get() = Res.drawable.arrow_expand_diagonal_01_stroke_rounded
+    val ArrowExpandDiagonal02Icon get() = Res.drawable.arrow_expand_diagonal_02_stroke_rounded
+    val ArrowHorizontalIcon get() = Res.drawable.arrow_horizontal_stroke_rounded
+    val ArrowLeft01Icon get() = Res.drawable.arrow_left_01_stroke_rounded
+    val ArrowLeft02Icon get() = Res.drawable.arrow_left_02_stroke_rounded
+    val ArrowLeft03Icon get() = Res.drawable.arrow_left_03_stroke_rounded
+    val ArrowLeft04Icon get() = Res.drawable.arrow_left_04_stroke_rounded
+    val ArrowLeft05Icon get() = Res.drawable.arrow_left_05_stroke_rounded
+    val ArrowLeftBigIcon get() = Res.drawable.arrow_left_big_stroke_rounded
+    val ArrowLeftDoubleIcon get() = Res.drawable.arrow_left_double_stroke_rounded
+    val ArrowLeftFromLineIcon get() = Res.drawable.arrow_left_from_line_stroke_rounded
+    val ArrowLeftRightIcon get() = Res.drawable.arrow_left_right_stroke_rounded
+    val ArrowMoveDownLeftIcon get() = Res.drawable.arrow_move_down_left_stroke_rounded
+    val ArrowMoveDownRightIcon get() = Res.drawable.arrow_move_down_right_stroke_rounded
+    val ArrowMoveLeftDownIcon get() = Res.drawable.arrow_move_left_down_stroke_rounded
+    val ArrowMoveRightDownIcon get() = Res.drawable.arrow_move_right_down_stroke_rounded
+    val ArrowMoveUpLeftIcon get() = Res.drawable.arrow_move_up_left_stroke_rounded
+    val ArrowMoveUpRightIcon get() = Res.drawable.arrow_move_up_right_stroke_rounded
+    val ArrowReloadHorizontalIcon get() = Res.drawable.arrow_reload_horizontal_stroke_rounded
+    val ArrowReloadVerticalIcon get() = Res.drawable.arrow_reload_vertical_stroke_rounded
+    val ArrowRight01Icon get() = Res.drawable.arrow_right_01_stroke_rounded
+    val ArrowRight02Icon get() = Res.drawable.arrow_right_02_stroke_rounded
+    val ArrowRight03Icon get() = Res.drawable.arrow_right_03_stroke_rounded
+    val ArrowRight04Icon get() = Res.drawable.arrow_right_04_stroke_rounded
+    val ArrowRight05Icon get() = Res.drawable.arrow_right_05_stroke_rounded
+    val ArrowRightBigIcon get() = Res.drawable.arrow_right_big_stroke_rounded
+    val ArrowRightDoubleIcon get() = Res.drawable.arrow_right_double_stroke_rounded
+    val ArrowRightFromLineIcon get() = Res.drawable.arrow_right_from_line_stroke_rounded
+    val ArrowShrinkIcon get() = Res.drawable.arrow_shrink_stroke_rounded
+    val ArrowShrink01Icon get() = Res.drawable.arrow_shrink_01_stroke_rounded
+    val ArrowShrink02Icon get() = Res.drawable.arrow_shrink_02_stroke_rounded
+    val ArrowTurnBackwardIcon get() = Res.drawable.arrow_turn_backward_stroke_rounded
+    val ArrowTurnDownIcon get() = Res.drawable.arrow_turn_down_stroke_rounded
+    val ArrowTurnForwardIcon get() = Res.drawable.arrow_turn_forward_stroke_rounded
+    val ArrowTurnUpIcon get() = Res.drawable.arrow_turn_up_stroke_rounded
+    val ArrowUpIcon get() = Res.drawable.arrow_up_0_1_stroke_rounded
+    val ArrowUp01Icon get() = Res.drawable.arrow_up_01_stroke_rounded
+    val ArrowUp02Icon get() = Res.drawable.arrow_up_02_stroke_rounded
+    val ArrowUp03Icon get() = Res.drawable.arrow_up_03_stroke_rounded
+    val ArrowUp04Icon get() = Res.drawable.arrow_up_04_stroke_rounded
+    val ArrowUp05Icon get() = Res.drawable.arrow_up_05_stroke_rounded
+    val ArrowUp10Icon get() = Res.drawable.arrow_up_1_0_stroke_rounded
+    val ArrowUpBigIcon get() = Res.drawable.arrow_up_big_stroke_rounded
+    val ArrowUpDoubleIcon get() = Res.drawable.arrow_up_double_stroke_rounded
+    val ArrowUpDownIcon get() = Res.drawable.arrow_up_down_stroke_rounded
+    val ArrowUpFromDotIcon get() = Res.drawable.arrow_up_from_dot_stroke_rounded
+    val ArrowUpFromLineIcon get() = Res.drawable.arrow_up_from_line_stroke_rounded
+    val ArrowUpLeft01Icon get() = Res.drawable.arrow_up_left_01_stroke_rounded
+    val ArrowUpLeft02Icon get() = Res.drawable.arrow_up_left_02_stroke_rounded
+    val ArrowUpNarrowWideIcon get() = Res.drawable.arrow_up_narrow_wide_stroke_rounded
+    val ArrowUpRight01Icon get() = Res.drawable.arrow_up_right_01_stroke_rounded
+    val ArrowUpRight02Icon get() = Res.drawable.arrow_up_right_02_stroke_rounded
+    val ArrowUpRight03Icon get() = Res.drawable.arrow_up_right_03_stroke_rounded
+    val ArrowUpRightStackIcon get() = Res.drawable.arrow_up_right_stack_stroke_rounded
+    val ArrowUpWideNarrowIcon get() = Res.drawable.arrow_up_wide_narrow_stroke_rounded
+    val ArrowUpZAIcon get() = Res.drawable.arrow_up_z_a_stroke_rounded
+    val ArrowVerticalIcon get() = Res.drawable.arrow_vertical_stroke_rounded
+    val ArtboardIcon get() = Res.drawable.artboard_stroke_rounded
+    val ArtboardToolIcon get() = Res.drawable.artboard_tool_stroke_rounded
+    val ArtificialIntelligence01Icon get() = Res.drawable.artificial_intelligence_01_stroke_rounded
+    val ArtificialIntelligence02Icon get() = Res.drawable.artificial_intelligence_02_stroke_rounded
+    val ArtificialIntelligence03Icon get() = Res.drawable.artificial_intelligence_03_stroke_rounded
+    val ArtificialIntelligence04Icon get() = Res.drawable.artificial_intelligence_04_stroke_rounded
+    val ArtificialIntelligence05Icon get() = Res.drawable.artificial_intelligence_05_stroke_rounded
+    val ArtificialIntelligence06Icon get() = Res.drawable.artificial_intelligence_06_stroke_rounded
+    val ArtificialIntelligence07Icon get() = Res.drawable.artificial_intelligence_07_stroke_rounded
+    val ArtificialIntelligence08Icon get() = Res.drawable.artificial_intelligence_08_stroke_rounded
+    val AspectRatioIcon get() = Res.drawable.aspect_ratio_stroke_rounded
+    val AssignmentsIcon get() = Res.drawable.assignments_stroke_rounded
+    val AsteriskIcon get() = Res.drawable.asterisk_stroke_rounded
+    val Asterisk02Icon get() = Res.drawable.asterisk_02_stroke_rounded
+    val Asteroid01Icon get() = Res.drawable.asteroid_01_stroke_rounded
+    val Asteroid02Icon get() = Res.drawable.asteroid_02_stroke_rounded
+    val Astronaut01Icon get() = Res.drawable.astronaut_01_stroke_rounded
+    val Astronaut02Icon get() = Res.drawable.astronaut_02_stroke_rounded
+    val AtIcon get() = Res.drawable.at_stroke_rounded
+    val Atm01Icon get() = Res.drawable.atm_01_stroke_rounded
+    val Atm02Icon get() = Res.drawable.atm_02_stroke_rounded
+    val Atom01Icon get() = Res.drawable.atom_01_stroke_rounded
+    val Atom02Icon get() = Res.drawable.atom_02_stroke_rounded
+    val AtomicPowerIcon get() = Res.drawable.atomic_power_stroke_rounded
+    val AttachmentIcon get() = Res.drawable.attachment_stroke_rounded
+    val Attachment01Icon get() = Res.drawable.attachment_01_stroke_rounded
+    val Attachment02Icon get() = Res.drawable.attachment_02_stroke_rounded
+    val AttachmentCircleIcon get() = Res.drawable.attachment_circle_stroke_rounded
+    val AttachmentSquareIcon get() = Res.drawable.attachment_square_stroke_rounded
+    val AuctionIcon get() = Res.drawable.auction_stroke_rounded
+    val AudioBook01Icon get() = Res.drawable.audio_book_01_stroke_rounded
+    val AudioBook02Icon get() = Res.drawable.audio_book_02_stroke_rounded
+    val AudioBook03Icon get() = Res.drawable.audio_book_03_stroke_rounded
+    val AudioBook04Icon get() = Res.drawable.audio_book_04_stroke_rounded
+    val AudioWave01Icon get() = Res.drawable.audio_wave_01_stroke_rounded
+    val AudioWave02Icon get() = Res.drawable.audio_wave_02_stroke_rounded
+    val Audit01Icon get() = Res.drawable.audit_01_stroke_rounded
+    val Audit02Icon get() = Res.drawable.audit_02_stroke_rounded
+    val AugmentedRealityArIcon get() = Res.drawable.augmented_reality_ar_stroke_rounded
+    val AuthorizedIcon get() = Res.drawable.authorized_stroke_rounded
+    val AutoConversationsIcon get() = Res.drawable.auto_conversations_stroke_rounded
+    val AutomotiveBattery01Icon get() = Res.drawable.automotive_battery_01_stroke_rounded
+    val AutomotiveBattery02Icon get() = Res.drawable.automotive_battery_02_stroke_rounded
+    val AvalancheIcon get() = Res.drawable.avalanche_stroke_rounded
+    val AvocadoIcon get() = Res.drawable.avocado_stroke_rounded
+    val Award01Icon get() = Res.drawable.award_01_stroke_rounded
+    val Award02Icon get() = Res.drawable.award_02_stroke_rounded
+    val Award03Icon get() = Res.drawable.award_03_stroke_rounded
+    val Award04Icon get() = Res.drawable.award_04_stroke_rounded
+    val Award05Icon get() = Res.drawable.award_05_stroke_rounded
+    val AwsLambdaIcon get() = Res.drawable.aws_lambda_stroke_rounded
+    val AxeIcon get() = Res.drawable.axe_stroke_rounded
+    val AxisThreeDIcon get() = Res.drawable.axis_3d_stroke_rounded
+
+    //B
+
+}
+
