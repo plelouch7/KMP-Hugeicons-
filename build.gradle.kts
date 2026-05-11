@@ -10,6 +10,6 @@ plugins {
 }
 
 allprojects {
-    group = "com.verimsolution"
-    version = "1.0.0"
+    group = providers.gradleProperty("GROUP").get()
+    version = providers.gradleProperty("VERSION_NAME").get()
 }

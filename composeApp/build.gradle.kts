@@ -1,12 +1,12 @@
-import org.gradle.api.publish.maven.MavenPublication
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+import org.gradle.plugins.signing.SigningExtension
 
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
-    id("maven-publish")
+    alias(libs.plugins.mavenPublish)
 }
 
 base {
@@ -19,13 +19,6 @@ compose.resources {
 }
 
 publishing {
-    publications.withType<MavenPublication>().configureEach {
-        artifactId = when (name) {
-            "kotlinMultiplatform" -> "hugeiconskmp"
-            else -> "hugeiconskmp-$name"
-        }
-    }
-
     val remoteMavenUrl = providers.gradleProperty("remoteMavenUrl")
         .orElse(providers.environmentVariable("REMOTE_MAVEN_URL"))
     val remoteMavenUsername = providers.gradleProperty("remoteMavenUsername")
@@ -47,12 +40,24 @@ publishing {
     }
 }
 
+mavenPublishing {
+    publishToMavenCentral()
+    signAllPublications()
+}
+
+extensions.configure<SigningExtension>("signing") {
+    val publishingToMavenCentral = gradle.startParameter.taskNames.any {
+        it.contains("MavenCentral", ignoreCase = true)
+    }
+    isRequired = publishingToMavenCentral
+}
+
 kotlin {
     androidTarget {
         compilerOptions {
             jvmTarget.set(JvmTarget.JVM_11)
         }
-        publishLibraryVariants("release", "debug")
+        publishLibraryVariants("release")
     }
     
     listOf(
