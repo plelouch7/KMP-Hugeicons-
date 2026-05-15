@@ -10,7 +10,9 @@
       "Bash(gh repo *)",
       "Bash(gh run *)",
       "PowerShell(gpg --export-secret-keys --armor 3B6AAC36 | Out-String | ForEach-Object { [Convert]::ToBase64String\\([System.Text.Encoding]::UTF8.GetBytes\\($_\\)\\) })",
-      "Bash(gpg --export-secret-keys --armor 3B6AAC36)"
+      "Bash(gpg --export-secret-keys --armor 3B6AAC36)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\plelouch\\\\Documents\\\\Projects\\\\Kotlin\\\\HugeiconsKMP\" -Recurse -Name)",
+      "PowerShell(head -60)"
     ]
   }
 }
