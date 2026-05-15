@@ -820,5 +820,6 @@ object HugeIcons {
 
     //B
 
+    val Baby get() = Res.drawable.axis_3d_stroke_rounded
 }
 
