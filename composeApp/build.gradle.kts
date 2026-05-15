@@ -1,5 +1,4 @@
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
-import org.gradle.plugins.signing.SigningExtension
 
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
@@ -40,16 +39,14 @@ publishing {
     }
 }
 
+val signingKeyId = providers.gradleProperty("signingInMemoryKeyId").orNull
+    ?: System.getenv("ORG_GRADLE_PROJECT_signingInMemoryKeyId")
+
 mavenPublishing {
     publishToMavenCentral()
-    signAllPublications()
-}
-
-extensions.configure<SigningExtension>("signing") {
-    val publishingToMavenCentral = gradle.startParameter.taskNames.any {
-        it.contains("MavenCentral", ignoreCase = true)
+    if (!signingKeyId.isNullOrBlank()) {
+        signAllPublications()
     }
-    isRequired = publishingToMavenCentral
 }
 
 kotlin {
