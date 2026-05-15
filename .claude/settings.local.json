@@ -4,7 +4,13 @@
       "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\plelouch\\\\Documents\\\\Projects\\\\Kotlin\\\\HugeiconsKMP\" -Force)",
       "Bash(Select-Object Name, PSIsContainer)",
       "Bash(Format-Table -AutoSize)",
-      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\plelouch\\\\Documents\\\\Projects\\\\Kotlin\\\\HugeiconsKMP\\\\composeApp\\\\src\" -Recurse -Depth 2 | Where-Object { $_.PSIsContainer } | Select-Object FullName | ForEach-Object { $_.FullName.Replace\\(\"C:\\\\Users\\\\plelouch\\\\Documents\\\\Projects\\\\Kotlin\\\\HugeiconsKMP\", \"\"\\) })"
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\plelouch\\\\Documents\\\\Projects\\\\Kotlin\\\\HugeiconsKMP\\\\composeApp\\\\src\" -Recurse -Depth 2 | Where-Object { $_.PSIsContainer } | Select-Object FullName | ForEach-Object { $_.FullName.Replace\\(\"C:\\\\Users\\\\plelouch\\\\Documents\\\\Projects\\\\Kotlin\\\\HugeiconsKMP\", \"\"\\) })",
+      "Bash(git -C \"C:\\\\Users\\\\plelouch\\\\Documents\\\\Projects\\\\Kotlin\\\\HugeiconsKMP\" tag --list)",
+      "Bash(gh release *)",
+      "Bash(gh repo *)",
+      "Bash(gh run *)",
+      "PowerShell(gpg --export-secret-keys --armor 3B6AAC36 | Out-String | ForEach-Object { [Convert]::ToBase64String\\([System.Text.Encoding]::UTF8.GetBytes\\($_\\)\\) })",
+      "Bash(gpg --export-secret-keys --armor 3B6AAC36)"
     ]
   }
 }
