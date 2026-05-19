@@ -407,6 +407,417 @@ import com.verimsolution.hugeiconskmp.generated.resources.award_05_stroke_rounde
 import com.verimsolution.hugeiconskmp.generated.resources.aws_lambda_stroke_rounded
 import com.verimsolution.hugeiconskmp.generated.resources.axe_stroke_rounded
 import com.verimsolution.hugeiconskmp.generated.resources.axis_3d_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.baby_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.baby_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.baby_bed_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.baby_bed_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.baby_bottle_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.baby_boy_dress_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.baby_girl_dress_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.back_muscle_body_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.background_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.backpack_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.backpack_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.backpack_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.backward_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.backward_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bacteria_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.badge_alert_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.badge_cent_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.badge_dollar_sign_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.badge_euro_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.badge_indian_rupee_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.badge_info_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.badge_japanese_yen_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.badge_percent_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.badge_pound_sterling_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.badge_russian_ruble_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.badge_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.badge_swiss_franc_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.badge_turkish_lira_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.badminton_shuttle_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.badminton_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.balance_scale_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.balloons_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.banana_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bandage_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bank_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bar_chart_horizontal_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bar_chart_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bar_code_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bar_code_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.barcode_scan_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.barns_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.barrel_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.baseball_bat_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.baseball_helmet_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.baseball_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bash_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.basketball_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.basketball_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.basketball_hoop_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bathtub_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bathtub_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.batteries_energy_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.battery_charging_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.battery_charging_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.battery_eco_charging_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.battery_empty_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.battery_full_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.battery_low_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.battery_medium_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.battery_medium_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.battery_plus_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.battery_warning_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bbq_grill_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.beach_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.beach_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bean_off_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bean_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.beater_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bebo_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bed_bunk_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bed_double_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bed_single_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bed_single_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bed_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bedug_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bedug_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.beef_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.behance_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.behance_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bell_dot_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bell_electric_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.belt_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bend_tool_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.berlin_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.berlin_tower_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.beta_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.between_horizontal_end_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.between_vertical_end_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bicycle_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bicycle_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.billiard_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.billiard_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.binary_code_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bing_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.binoculars_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bio_energy_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.biohazard_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.biomass_energy_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.biometric_access_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.biometric_device_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bird_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.birdhouse_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.birthday_cake_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.biscuit_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_04_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_bag_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_circle_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_cloud_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_cpu_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_credit_card_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_database_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_down_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_down_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_ellipse_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_eye_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_filter_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_flashdisk_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_graph_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_invoice_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_key_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_location_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_lock_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_mail_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_mind_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_money_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_money_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_pie_chart_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_piggy_bank_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_presentation_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_receipt_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_receive_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_rectangle_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_safe_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_search_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_send_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_setting_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_shield_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_shopping_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_smartphone_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_smartphone_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_square_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_store_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_tag_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_target_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_transaction_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_up_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_up_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_wallet_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bitcoin_withdraw_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.black_hole_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.black_hole_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.blend_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.blender_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.blinds_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.block_game_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.blockchain_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.blockchain_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.blockchain_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.blockchain_04_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.blockchain_05_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.blockchain_06_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.blockchain_07_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.blocked_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.blogger_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.blood_bag_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.blood_bottle_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.blood_pressure_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.blood_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.blood_type_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bluesky_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bluetooth_circle_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bluetooth_not_connected_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bluetooth_search_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bluetooth_square_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bluetooth_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.blur_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.blush_brush_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.blush_brush_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.board_math_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.boat_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.body_armor_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.body_part_leg_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.body_part_muscle_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.body_part_six_pack_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.body_soap_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.body_weight_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bomb_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bone_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bone_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_04_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_a_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_alert_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_bookmark_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_bookmark_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_check_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_copy_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_dashed_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_download_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_edit_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_heart_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_image_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_key_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_lock_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_minus_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_open_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_open_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_open_check_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_open_text_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_plus_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_search_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_type_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_up_2_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_upload_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_user_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.book_x_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bookmark_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bookmark_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bookmark_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bookmark_add_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bookmark_add_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bookmark_block_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bookmark_block_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bookmark_check_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bookmark_check_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bookmark_minus_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bookmark_minus_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bookmark_off_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bookmark_off_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bookmark_remove_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bookmark_remove_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.books_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.books_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bookshelf_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bookshelf_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bookshelf_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.boom_box_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bootstrap_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.border_all_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.border_all_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.border_bottom_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.border_bottom_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.border_full_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.border_horizontal_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.border_inner_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.border_left_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.border_left_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.border_none_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.border_none_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.border_right_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.border_right_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.border_top_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.border_top_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.border_vertical_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.borobudur_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bot_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bounce_left_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bounce_right_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bounding_box_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bow_tie_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bowling_ball_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bowling_pins_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bowling_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.boxer_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.boxing_bag_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.boxing_glove_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.boxing_glove_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.brain_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.brain_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.brain_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.brain_cog_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.brain_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.brandfetch_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bread_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bread_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bread_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bread_04_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.breast_pump_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.brick_wall_shield_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.brick_wall_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bridge_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.briefcase_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.briefcase_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.briefcase_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.briefcase_04_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.briefcase_05_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.briefcase_06_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.briefcase_07_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.briefcase_08_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.briefcase_09_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.briefcase_conveyor_belt_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.briefcase_dollar_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bring_to_front_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.broccoli_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.brochure_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.broken_bone_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.browser_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.brush_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_add_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_blocked_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_cancel_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_delay_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_done_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_download_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_download_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_edit_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_favourite_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_income_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_lock_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_notification_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_outcome_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_preview_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_question_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_search_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_secure_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_spark_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_spark_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_temporary_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_translate_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_unlock_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_upload_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_chat_user_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_tea_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubble_tea_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bubbles_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bucket_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bug_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bug_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.building_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.building_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.building_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.building_04_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.building_05_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.building_06_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bulb_charging_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bulb_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bullet_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bulletproof_vest_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.burj_al_arab_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.burning_cd_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bus_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bus_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.bus_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.cpp_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.cabinet_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.cabinet_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.cabinet_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.cabinet_04_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.cable_car_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.cable_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.cactus_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.caduceus_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.cafe_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.cake_slice_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calculate_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calculator_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calculator_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_03_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_04_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_05_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_add_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_add_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_analysis_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_block_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_block_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_check_in_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_check_in_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_check_out_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_check_out_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_download_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_download_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_favorite_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_favorite_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_fold_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_lock_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_lock_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_love_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_love_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_minus_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_minus_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_mortarboard_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_off_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_remove_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_remove_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_setting_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_setting_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_sync_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_upload_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_upload_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendar_user_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.calendars_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.call_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.call_add_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.call_add_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.call_blocked_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.call_blocked_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.call_disabled_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.call_disabled_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.call_done_02_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.call_done_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.call_end_01_stroke_rounded
+import com.verimsolution.hugeiconskmp.generated.resources.call_stroke_rounded
 
 object HugeIcons {
     val FirstBracketIcon get() = Res.drawable._1st_bracket_stroke_rounded
@@ -692,7 +1103,7 @@ object HugeIcons {
     val ArrowDown01Icon get() = Res.drawable.arrow_down_01_stroke_rounded
     val ArrowDown02Icon get() = Res.drawable.arrow_down_02_stroke_rounded
     val ArrowDown03Icon get() = Res.drawable.arrow_down_03_stroke_rounded
-    val ArrowDown04Icon  get() = Res.drawable.arrow_down_04_stroke_rounded
+    val ArrowDown04Icon get() = Res.drawable.arrow_down_04_stroke_rounded
     val ArrowDown05Icon get() = Res.drawable.arrow_down_05_stroke_rounded
     val ArrowDown10Icon get() = Res.drawable.arrow_down_1_0_stroke_rounded
     val ArrowDownAZIcon get() = Res.drawable.arrow_down_a_z_stroke_rounded
@@ -820,6 +1231,419 @@ object HugeIcons {
 
     //B
 
-    val Baby get() = Res.drawable.axis_3d_stroke_rounded
+    val Baby01Icon get() = Res.drawable.baby_01_stroke_rounded
+    val Baby02Icon get() = Res.drawable.baby_02_stroke_rounded
+    val BabyBed01Icon get() = Res.drawable.baby_bed_01_stroke_rounded
+    val BabyBed02Icon get() = Res.drawable.baby_bed_02_stroke_rounded
+    val BabyBottleIcon get() = Res.drawable.baby_bottle_stroke_rounded
+    val BabyBoyDressIcon get() = Res.drawable.baby_boy_dress_stroke_rounded
+    val BabyGirlDressIcon get() = Res.drawable.baby_girl_dress_stroke_rounded
+    val BackgroundIcon get() = Res.drawable.background_stroke_rounded
+    val BackMuscleBodyIcon get() = Res.drawable.back_muscle_body_stroke_rounded
+    val Backpack01Icon get() = Res.drawable.backpack_01_stroke_rounded
+    val Backpack02Icon get() = Res.drawable.backpack_02_stroke_rounded
+    val Backpack03Icon get() = Res.drawable.backpack_03_stroke_rounded
+    val Backward01Icon get() = Res.drawable.backward_01_stroke_rounded
+    val Backward02Icon get() = Res.drawable.backward_02_stroke_rounded
+    val BacteriaIcon get() = Res.drawable.bacteria_stroke_rounded
+    val BadgeIcon get() = Res.drawable.badge_stroke_rounded
+    val BadgeAlertIcon get() = Res.drawable.badge_alert_stroke_rounded
+    val BadgeCentIcon get() = Res.drawable.badge_cent_stroke_rounded
+    val BadgeDollarSignIcon get() = Res.drawable.badge_dollar_sign_stroke_rounded
+    val BadgeEuroIcon get() = Res.drawable.badge_euro_stroke_rounded
+    val BadgeIndianRupeeIcon get() = Res.drawable.badge_indian_rupee_stroke_rounded
+    val BadgeInfoIcon get() = Res.drawable.badge_info_stroke_rounded
+    val BadgeJapaneseYenIcon get() = Res.drawable.badge_japanese_yen_stroke_rounded
+    val BadgePercentIcon get() = Res.drawable.badge_percent_stroke_rounded
+    val BadgePoundSterlingIcon get() = Res.drawable.badge_pound_sterling_stroke_rounded
+    val BadgeRussianRubleIcon get() = Res.drawable.badge_russian_ruble_stroke_rounded
+    val BadgeSwissFrancIcon get() = Res.drawable.badge_swiss_franc_stroke_rounded
+    val BadgeTurkishLiraIcon get() = Res.drawable.badge_turkish_lira_stroke_rounded
+    val BadmintonIcon get() = Res.drawable.badminton_stroke_rounded
+    val BadmintonShuttleIcon get() = Res.drawable.badminton_shuttle_stroke_rounded
+    val BalanceScaleIcon get() = Res.drawable.balance_scale_stroke_rounded
+    val BalloonsIcon get() = Res.drawable.balloons_stroke_rounded
+    val BananaIcon get() = Res.drawable.banana_stroke_rounded
+    val BandageIcon get() = Res.drawable.bandage_stroke_rounded
+    val BankIcon get() = Res.drawable.bank_stroke_rounded
+    val BarChartIcon get() = Res.drawable.bar_chart_stroke_rounded
+    val BarChartHorizontalIcon get() = Res.drawable.bar_chart_horizontal_stroke_rounded
+    val BarCode01Icon get() = Res.drawable.bar_code_01_stroke_rounded
+    val BarCode02Icon get() = Res.drawable.bar_code_02_stroke_rounded
+    val BarcodeScanIcon get() = Res.drawable.barcode_scan_stroke_rounded
+    val BarnsIcon get() = Res.drawable.barns_stroke_rounded
+    val BarrelIcon get() = Res.drawable.barrel_stroke_rounded
+    val BaseballIcon get() = Res.drawable.baseball_stroke_rounded
+    val BaseballBatIcon get() = Res.drawable.baseball_bat_stroke_rounded
+    val BaseballHelmetIcon get() = Res.drawable.baseball_helmet_stroke_rounded
+    val BashIcon get() = Res.drawable.bash_stroke_rounded
+    val Basketball01Icon get() = Res.drawable.basketball_01_stroke_rounded
+    val Basketball02Icon get() = Res.drawable.basketball_02_stroke_rounded
+    val BasketballHoopIcon get() = Res.drawable.basketball_hoop_stroke_rounded
+    val Bathtub01Icon get() = Res.drawable.bathtub_01_stroke_rounded
+    val Bathtub02Icon get() = Res.drawable.bathtub_02_stroke_rounded
+    val BatteriesEnergyIcon get() = Res.drawable.batteries_energy_stroke_rounded
+    val BatteryCharging01Icon get() = Res.drawable.battery_charging_01_stroke_rounded
+    val BatteryCharging02Icon get() = Res.drawable.battery_charging_02_stroke_rounded
+    val BatteryEcoChargingIcon get() = Res.drawable.battery_eco_charging_stroke_rounded
+    val BatteryEmptyIcon get() = Res.drawable.battery_empty_stroke_rounded
+    val BatteryFullIcon get() = Res.drawable.battery_full_stroke_rounded
+    val BatteryLowIcon get() = Res.drawable.battery_low_stroke_rounded
+    val BatteryMedium01Icon get() = Res.drawable.battery_medium_01_stroke_rounded
+    val BatteryMedium02Icon get() = Res.drawable.battery_medium_02_stroke_rounded
+    val BatteryPlusIcon get() = Res.drawable.battery_plus_stroke_rounded
+    val BatteryWarningIcon get() = Res.drawable.battery_warning_stroke_rounded
+    val BbqGrillIcon get() = Res.drawable.bbq_grill_stroke_rounded
+    val BeachIcon get() = Res.drawable.beach_stroke_rounded
+    val Beach02Icon get() = Res.drawable.beach_02_stroke_rounded
+    val BeanIcon get() = Res.drawable.bean_stroke_rounded
+    val BeanOffIcon get() = Res.drawable.bean_off_stroke_rounded
+    val BeaterIcon get() = Res.drawable.beater_stroke_rounded
+    val BeboIcon get() = Res.drawable.bebo_stroke_rounded
+    val BedIcon get() = Res.drawable.bed_stroke_rounded
+    val BedBunkIcon get() = Res.drawable.bed_bunk_stroke_rounded
+    val BedDoubleIcon get() = Res.drawable.bed_double_stroke_rounded
+    val BedSingle01Icon get() = Res.drawable.bed_single_01_stroke_rounded
+    val BedSingle02Icon get() = Res.drawable.bed_single_02_stroke_rounded
+    val Bedug01Icon get() = Res.drawable.bedug_01_stroke_rounded
+    val Bedug02Icon get() = Res.drawable.bedug_02_stroke_rounded
+    val BeefIcon get() = Res.drawable.beef_stroke_rounded
+    val Behance01Icon get() = Res.drawable.behance_01_stroke_rounded
+    val Behance02Icon get() = Res.drawable.behance_02_stroke_rounded
+    val BellDotIcon get() = Res.drawable.bell_dot_stroke_rounded
+    val BellElectricIcon get() = Res.drawable.bell_electric_stroke_rounded
+    val BeltIcon get() = Res.drawable.belt_stroke_rounded
+    val BendToolIcon get() = Res.drawable.bend_tool_stroke_rounded
+    val BerlinIcon get() = Res.drawable.berlin_stroke_rounded
+    val BerlinTowerIcon get() = Res.drawable.berlin_tower_stroke_rounded
+    val BetaIcon get() = Res.drawable.beta_stroke_rounded
+    val BetweenHorizontalEndIcon get() = Res.drawable.between_horizontal_end_stroke_rounded
+    val BetweenVerticalEndIcon get() = Res.drawable.between_vertical_end_stroke_rounded
+    val BicycleIcon get() = Res.drawable.bicycle_stroke_rounded
+    val Bicycle01Icon get() = Res.drawable.bicycle_01_stroke_rounded
+    val Billiard01Icon get() = Res.drawable.billiard_01_stroke_rounded
+    val Billiard02Icon get() = Res.drawable.billiard_02_stroke_rounded
+    val BinaryCodeIcon get() = Res.drawable.binary_code_stroke_rounded
+    val BingIcon get() = Res.drawable.bing_stroke_rounded
+    val BinocularsIcon get() = Res.drawable.binoculars_stroke_rounded
+    val BioEnergyIcon get() = Res.drawable.bio_energy_stroke_rounded
+    val BiohazardIcon get() = Res.drawable.biohazard_stroke_rounded
+    val BiomassEnergyIcon get() = Res.drawable.biomass_energy_stroke_rounded
+    val BiometricAccessIcon get() = Res.drawable.biometric_access_stroke_rounded
+    val BiometricDeviceIcon get() = Res.drawable.biometric_device_stroke_rounded
+    val BirdIcon get() = Res.drawable.bird_stroke_rounded
+    val BirdhouseIcon get() = Res.drawable.birdhouse_stroke_rounded
+    val BirthdayCakeIcon get() = Res.drawable.birthday_cake_stroke_rounded
+    val BiscuitIcon get() = Res.drawable.biscuit_stroke_rounded
+    val BitcoinIcon get() = Res.drawable.bitcoin_stroke_rounded
+    val Bitcoin01Icon get() = Res.drawable.bitcoin_01_stroke_rounded
+    val Bitcoin02Icon get() = Res.drawable.bitcoin_02_stroke_rounded
+    val Bitcoin03Icon get() = Res.drawable.bitcoin_03_stroke_rounded
+    val Bitcoin04Icon get() = Res.drawable.bitcoin_04_stroke_rounded
+    val BitcoinBagIcon get() = Res.drawable.bitcoin_bag_stroke_rounded
+    val BitcoinCircleIcon get() = Res.drawable.bitcoin_circle_stroke_rounded
+    val BitcoinCloudIcon get() = Res.drawable.bitcoin_cloud_stroke_rounded
+    val BitcoinCpuIcon get() = Res.drawable.bitcoin_cpu_stroke_rounded
+    val BitcoinCreditCardIcon get() = Res.drawable.bitcoin_credit_card_stroke_rounded
+    val BitcoinDatabaseIcon get() = Res.drawable.bitcoin_database_stroke_rounded
+    val BitcoinDown01Icon get() = Res.drawable.bitcoin_down_01_stroke_rounded
+    val BitcoinDown02Icon get() = Res.drawable.bitcoin_down_02_stroke_rounded
+    val BitcoinEllipseIcon get() = Res.drawable.bitcoin_ellipse_stroke_rounded
+    val BitcoinEyeIcon get() = Res.drawable.bitcoin_eye_stroke_rounded
+    val BitcoinFilterIcon get() = Res.drawable.bitcoin_filter_stroke_rounded
+    val BitcoinFlashdiskIcon get() = Res.drawable.bitcoin_flashdisk_stroke_rounded
+    val BitcoinGraphIcon get() = Res.drawable.bitcoin_graph_stroke_rounded
+    val BitcoinInvoiceIcon get() = Res.drawable.bitcoin_invoice_stroke_rounded
+    val BitcoinKeyIcon get() = Res.drawable.bitcoin_key_stroke_rounded
+    val BitcoinLocationIcon get() = Res.drawable.bitcoin_location_stroke_rounded
+    val BitcoinLockIcon get() = Res.drawable.bitcoin_lock_stroke_rounded
+    val BitcoinMailIcon get() = Res.drawable.bitcoin_mail_stroke_rounded
+    val BitcoinMindIcon get() = Res.drawable.bitcoin_mind_stroke_rounded
+    val BitcoinMoney01Icon get() = Res.drawable.bitcoin_money_01_stroke_rounded
+    val BitcoinMoney02Icon get() = Res.drawable.bitcoin_money_02_stroke_rounded
+    val BitcoinPieChartIcon get() = Res.drawable.bitcoin_pie_chart_stroke_rounded
+    val BitcoinPiggyBankIcon get() = Res.drawable.bitcoin_piggy_bank_stroke_rounded
+    val BitcoinPresentationIcon get() = Res.drawable.bitcoin_presentation_stroke_rounded
+    val BitcoinReceiptIcon get() = Res.drawable.bitcoin_receipt_stroke_rounded
+    val BitcoinReceiveIcon get() = Res.drawable.bitcoin_receive_stroke_rounded
+    val BitcoinRectangleIcon get() = Res.drawable.bitcoin_rectangle_stroke_rounded
+    val BitcoinSafeIcon get() = Res.drawable.bitcoin_safe_stroke_rounded
+    val BitcoinSearchIcon get() = Res.drawable.bitcoin_search_stroke_rounded
+    val BitcoinSendIcon get() = Res.drawable.bitcoin_send_stroke_rounded
+    val BitcoinSettingIcon get() = Res.drawable.bitcoin_setting_stroke_rounded
+    val BitcoinShieldIcon get() = Res.drawable.bitcoin_shield_stroke_rounded
+    val BitcoinShoppingIcon get() = Res.drawable.bitcoin_shopping_stroke_rounded
+    val BitcoinSmartphone01Icon get() = Res.drawable.bitcoin_smartphone_01_stroke_rounded
+    val BitcoinSmartphone02Icon get() = Res.drawable.bitcoin_smartphone_02_stroke_rounded
+    val BitcoinSquareIcon get() = Res.drawable.bitcoin_square_stroke_rounded
+    val BitcoinStoreIcon get() = Res.drawable.bitcoin_store_stroke_rounded
+    val BitcoinTagIcon get() = Res.drawable.bitcoin_tag_stroke_rounded
+    val BitcoinTargetIcon get() = Res.drawable.bitcoin_target_stroke_rounded
+    val BitcoinTransactionIcon get() = Res.drawable.bitcoin_transaction_stroke_rounded
+    val BitcoinUp01Icon get() = Res.drawable.bitcoin_up_01_stroke_rounded
+    val BitcoinUp02Icon get() = Res.drawable.bitcoin_up_02_stroke_rounded
+    val BitcoinWalletIcon get() = Res.drawable.bitcoin_wallet_stroke_rounded
+    val BitcoinWithdrawIcon get() = Res.drawable.bitcoin_withdraw_stroke_rounded
+    val BlackHoleIcon get() = Res.drawable.black_hole_stroke_rounded
+    val BlackHole01Icon get() = Res.drawable.black_hole_01_stroke_rounded
+    val BlendIcon get() = Res.drawable.blend_stroke_rounded
+    val BlenderIcon get() = Res.drawable.blender_stroke_rounded
+    val BlindsIcon get() = Res.drawable.blinds_stroke_rounded
+    val Blockchain01Icon get() = Res.drawable.blockchain_01_stroke_rounded
+    val Blockchain02Icon get() = Res.drawable.blockchain_02_stroke_rounded
+    val Blockchain03Icon get() = Res.drawable.blockchain_03_stroke_rounded
+    val Blockchain04Icon get() = Res.drawable.blockchain_04_stroke_rounded
+    val Blockchain05Icon get() = Res.drawable.blockchain_05_stroke_rounded
+    val Blockchain06Icon get() = Res.drawable.blockchain_06_stroke_rounded
+    val Blockchain07Icon get() = Res.drawable.blockchain_07_stroke_rounded
+    val BlockedIcon get() = Res.drawable.blocked_stroke_rounded
+    val BlockGameIcon get() = Res.drawable.block_game_stroke_rounded
+    val BloggerIcon get() = Res.drawable.blogger_stroke_rounded
+    val BloodIcon get() = Res.drawable.blood_stroke_rounded
+    val BloodBagIcon get() = Res.drawable.blood_bag_stroke_rounded
+    val BloodBottleIcon get() = Res.drawable.blood_bottle_stroke_rounded
+    val BloodPressureIcon get() = Res.drawable.blood_pressure_stroke_rounded
+    val BloodTypeIcon get() = Res.drawable.blood_type_stroke_rounded
+    val BlueskyIcon get() = Res.drawable.bluesky_stroke_rounded
+    val BluetoothIcon get() = Res.drawable.bluetooth_stroke_rounded
+    val BluetoothCircleIcon get() = Res.drawable.bluetooth_circle_stroke_rounded
+    val BluetoothNotConnectedIcon get() = Res.drawable.bluetooth_not_connected_stroke_rounded
+    val BluetoothSearchIcon get() = Res.drawable.bluetooth_search_stroke_rounded
+    val BluetoothSquareIcon get() = Res.drawable.bluetooth_square_stroke_rounded
+    val BlurIcon get() = Res.drawable.blur_stroke_rounded
+    val BlushBrush01Icon get() = Res.drawable.blush_brush_01_stroke_rounded
+    val BlushBrush02Icon get() = Res.drawable.blush_brush_02_stroke_rounded
+    val BoardMathIcon get() = Res.drawable.board_math_stroke_rounded
+    val BoatIcon get() = Res.drawable.boat_stroke_rounded
+    val BodyArmorIcon get() = Res.drawable.body_armor_stroke_rounded
+    val BodyPartLegIcon get() = Res.drawable.body_part_leg_stroke_rounded
+    val BodyPartMuscleIcon get() = Res.drawable.body_part_muscle_stroke_rounded
+    val BodyPartSixPackIcon get() = Res.drawable.body_part_six_pack_stroke_rounded
+    val BodySoapIcon get() = Res.drawable.body_soap_stroke_rounded
+    val BodyWeightIcon get() = Res.drawable.body_weight_stroke_rounded
+    val BombIcon get() = Res.drawable.bomb_stroke_rounded
+    val Bone01Icon get() = Res.drawable.bone_01_stroke_rounded
+    val Bone02Icon get() = Res.drawable.bone_02_stroke_rounded
+    val Book01Icon get() = Res.drawable.book_01_stroke_rounded
+    val Book02Icon get() = Res.drawable.book_02_stroke_rounded
+    val Book03Icon get() = Res.drawable.book_03_stroke_rounded
+    val Book04Icon get() = Res.drawable.book_04_stroke_rounded
+    val BookAIcon get() = Res.drawable.book_a_stroke_rounded
+    val BookAlertIcon get() = Res.drawable.book_alert_stroke_rounded
+    val BookBookmark01Icon get() = Res.drawable.book_bookmark_01_stroke_rounded
+    val BookBookmark02Icon get() = Res.drawable.book_bookmark_02_stroke_rounded
+    val BookCheckIcon get() = Res.drawable.book_check_stroke_rounded
+    val BookCopyIcon get() = Res.drawable.book_copy_stroke_rounded
+    val BookDashedIcon get() = Res.drawable.book_dashed_stroke_rounded
+    val BookDownloadIcon get() = Res.drawable.book_download_stroke_rounded
+    val BookEditIcon get() = Res.drawable.book_edit_stroke_rounded
+    val BookHeartIcon get() = Res.drawable.book_heart_stroke_rounded
+    val BookImageIcon get() = Res.drawable.book_image_stroke_rounded
+    val BookKeyIcon get() = Res.drawable.book_key_stroke_rounded
+    val BookLockIcon get() = Res.drawable.book_lock_stroke_rounded
+    val Bookmark01Icon get() = Res.drawable.bookmark_01_stroke_rounded
+    val Bookmark02Icon get() = Res.drawable.bookmark_02_stroke_rounded
+    val Bookmark03Icon get() = Res.drawable.bookmark_03_stroke_rounded
+    val BookmarkAdd01Icon get() = Res.drawable.bookmark_add_01_stroke_rounded
+    val BookmarkAdd02Icon get() = Res.drawable.bookmark_add_02_stroke_rounded
+    val BookmarkBlock01Icon get() = Res.drawable.bookmark_block_01_stroke_rounded
+    val BookmarkBlock02Icon get() = Res.drawable.bookmark_block_02_stroke_rounded
+    val BookmarkCheck01Icon get() = Res.drawable.bookmark_check_01_stroke_rounded
+    val BookmarkCheck02Icon get() = Res.drawable.bookmark_check_02_stroke_rounded
+    val BookmarkMinus01Icon get() = Res.drawable.bookmark_minus_01_stroke_rounded
+    val BookmarkMinus02Icon get() = Res.drawable.bookmark_minus_02_stroke_rounded
+    val BookmarkOff01Icon get() = Res.drawable.bookmark_off_01_stroke_rounded
+    val BookmarkOff02Icon get() = Res.drawable.bookmark_off_02_stroke_rounded
+    val BookmarkRemove01Icon get() = Res.drawable.bookmark_remove_01_stroke_rounded
+    val BookmarkRemove02Icon get() = Res.drawable.bookmark_remove_02_stroke_rounded
+    val BookMinusIcon get() = Res.drawable.book_minus_stroke_rounded
+    val BookOpen01Icon get() = Res.drawable.book_open_01_stroke_rounded
+    val BookOpen02Icon get() = Res.drawable.book_open_02_stroke_rounded
+    val BookOpenCheckIcon get() = Res.drawable.book_open_check_stroke_rounded
+    val BookOpenTextIcon get() = Res.drawable.book_open_text_stroke_rounded
+    val BookPlusIcon get() = Res.drawable.book_plus_stroke_rounded
+    val Books01Icon get() = Res.drawable.books_01_stroke_rounded
+    val Books02Icon get() = Res.drawable.books_02_stroke_rounded
+    val BookSearchIcon get() = Res.drawable.book_search_stroke_rounded
+    val Bookshelf01Icon get() = Res.drawable.bookshelf_01_stroke_rounded
+    val Bookshelf02Icon get() = Res.drawable.bookshelf_02_stroke_rounded
+    val Bookshelf03Icon get() = Res.drawable.bookshelf_03_stroke_rounded
+    val BookTypeIcon get() = Res.drawable.book_type_stroke_rounded
+    val BookUp2Icon get() = Res.drawable.book_up_2_stroke_rounded
+    val BookUploadIcon get() = Res.drawable.book_upload_stroke_rounded
+    val BookUserIcon get() = Res.drawable.book_user_stroke_rounded
+    val BookXIcon get() = Res.drawable.book_x_stroke_rounded
+    val BoomBoxIcon get() = Res.drawable.boom_box_stroke_rounded
+    val BootstrapIcon get() = Res.drawable.bootstrap_stroke_rounded
+    val BorderAll01Icon get() = Res.drawable.border_all_01_stroke_rounded
+    val BorderAll02Icon get() = Res.drawable.border_all_02_stroke_rounded
+    val BorderBottom01Icon get() = Res.drawable.border_bottom_01_stroke_rounded
+    val BorderBottom02Icon get() = Res.drawable.border_bottom_02_stroke_rounded
+    val BorderFullIcon get() = Res.drawable.border_full_stroke_rounded
+    val BorderHorizontalIcon get() = Res.drawable.border_horizontal_stroke_rounded
+    val BorderInnerIcon get() = Res.drawable.border_inner_stroke_rounded
+    val BorderLeft01Icon get() = Res.drawable.border_left_01_stroke_rounded
+    val BorderLeft02Icon get() = Res.drawable.border_left_02_stroke_rounded
+    val BorderNone01Icon get() = Res.drawable.border_none_01_stroke_rounded
+    val BorderNone02Icon get() = Res.drawable.border_none_02_stroke_rounded
+    val BorderRight01Icon get() = Res.drawable.border_right_01_stroke_rounded
+    val BorderRight02Icon get() = Res.drawable.border_right_02_stroke_rounded
+    val BorderTop01Icon get() = Res.drawable.border_top_01_stroke_rounded
+    val BorderTop02Icon get() = Res.drawable.border_top_02_stroke_rounded
+    val BorderVerticalIcon get() = Res.drawable.border_vertical_stroke_rounded
+    val BorobudurIcon get() = Res.drawable.borobudur_stroke_rounded
+    val BotIcon get() = Res.drawable.bot_stroke_rounded
+    val BounceLeftIcon get() = Res.drawable.bounce_left_stroke_rounded
+    val BounceRightIcon get() = Res.drawable.bounce_right_stroke_rounded
+    val BoundingBoxIcon get() = Res.drawable.bounding_box_stroke_rounded
+    val BowlingIcon get() = Res.drawable.bowling_stroke_rounded
+    val BowlingBallIcon get() = Res.drawable.bowling_ball_stroke_rounded
+    val BowlingPinsIcon get() = Res.drawable.bowling_pins_stroke_rounded
+    val BowTieIcon get() = Res.drawable.bow_tie_stroke_rounded
+    val BoxerIcon get() = Res.drawable.boxer_stroke_rounded
+    val BoxingBagIcon get() = Res.drawable.boxing_bag_stroke_rounded
+    val BoxingGloveIcon get() = Res.drawable.boxing_glove_stroke_rounded
+    val BoxingGlove01Icon get() = Res.drawable.boxing_glove_01_stroke_rounded
+    val BrainIcon get() = Res.drawable.brain_stroke_rounded
+    val Brain01Icon get() = Res.drawable.brain_01_stroke_rounded
+    val Brain02Icon get() = Res.drawable.brain_02_stroke_rounded
+    val Brain03Icon get() = Res.drawable.brain_03_stroke_rounded
+    val BrainCogIcon get() = Res.drawable.brain_cog_stroke_rounded
+    val BrandfetchIcon get() = Res.drawable.brandfetch_stroke_rounded
+    val Bread01Icon get() = Res.drawable.bread_01_stroke_rounded
+    val Bread02Icon get() = Res.drawable.bread_02_stroke_rounded
+    val Bread03Icon get() = Res.drawable.bread_03_stroke_rounded
+    val Bread04Icon get() = Res.drawable.bread_04_stroke_rounded
+    val BreastPumpIcon get() = Res.drawable.breast_pump_stroke_rounded
+    val BrickWallIcon get() = Res.drawable.brick_wall_stroke_rounded
+    val BrickWallShieldIcon get() = Res.drawable.brick_wall_shield_stroke_rounded
+    val BridgeIcon get() = Res.drawable.bridge_stroke_rounded
+    val Briefcase01Icon get() = Res.drawable.briefcase_01_stroke_rounded
+    val Briefcase02Icon get() = Res.drawable.briefcase_02_stroke_rounded
+    val Briefcase03Icon get() = Res.drawable.briefcase_03_stroke_rounded
+    val Briefcase04Icon get() = Res.drawable.briefcase_04_stroke_rounded
+    val Briefcase05Icon get() = Res.drawable.briefcase_05_stroke_rounded
+    val Briefcase06Icon get() = Res.drawable.briefcase_06_stroke_rounded
+    val Briefcase07Icon get() = Res.drawable.briefcase_07_stroke_rounded
+    val Briefcase08Icon get() = Res.drawable.briefcase_08_stroke_rounded
+    val Briefcase09Icon get() = Res.drawable.briefcase_09_stroke_rounded
+    val BriefcaseConveyorBeltIcon get() = Res.drawable.briefcase_conveyor_belt_stroke_rounded
+    val BriefcaseDollarIcon get() = Res.drawable.briefcase_dollar_stroke_rounded
+    val BringToFrontIcon get() = Res.drawable.bring_to_front_stroke_rounded
+    val BroccoliIcon get() = Res.drawable.broccoli_stroke_rounded
+    val BrochureIcon get() = Res.drawable.brochure_stroke_rounded
+    val BrokenBoneIcon get() = Res.drawable.broken_bone_stroke_rounded
+    val BrowserIcon get() = Res.drawable.browser_stroke_rounded
+    val BrushIcon get() = Res.drawable.brush_stroke_rounded
+    val BubbleChatIcon get() = Res.drawable.bubble_chat_stroke_rounded
+    val BubbleChatAddIcon get() = Res.drawable.bubble_chat_add_stroke_rounded
+    val BubbleChatBlockedIcon get() = Res.drawable.bubble_chat_blocked_stroke_rounded
+    val BubbleChatCancelIcon get() = Res.drawable.bubble_chat_cancel_stroke_rounded
+    val BubbleChatDelayIcon get() = Res.drawable.bubble_chat_delay_stroke_rounded
+    val BubbleChatDoneIcon get() = Res.drawable.bubble_chat_done_stroke_rounded
+    val BubbleChatDownload01Icon get() = Res.drawable.bubble_chat_download_01_stroke_rounded
+    val BubbleChatDownload02Icon get() = Res.drawable.bubble_chat_download_02_stroke_rounded
+    val BubbleChatEditIcon get() = Res.drawable.bubble_chat_edit_stroke_rounded
+    val BubbleChatFavouriteIcon get() = Res.drawable.bubble_chat_favourite_stroke_rounded
+    val BubbleChatIncomeIcon get() = Res.drawable.bubble_chat_income_stroke_rounded
+    val BubbleChatLockIcon get() = Res.drawable.bubble_chat_lock_stroke_rounded
+    val BubbleChatNotificationIcon get() = Res.drawable.bubble_chat_notification_stroke_rounded
+    val BubbleChatOutcomeIcon get() = Res.drawable.bubble_chat_outcome_stroke_rounded
+    val BubbleChatPreviewIcon get() = Res.drawable.bubble_chat_preview_stroke_rounded
+    val BubbleChatQuestionIcon get() = Res.drawable.bubble_chat_question_stroke_rounded
+    val BubbleChatSearchIcon get() = Res.drawable.bubble_chat_search_stroke_rounded
+    val BubbleChatSecureIcon get() = Res.drawable.bubble_chat_secure_stroke_rounded
+    val BubbleChatSparkIcon get() = Res.drawable.bubble_chat_spark_stroke_rounded
+    val BubbleChatSpark01Icon get() = Res.drawable.bubble_chat_spark_01_stroke_rounded
+    val BubbleChatTemporaryIcon get() = Res.drawable.bubble_chat_temporary_stroke_rounded
+    val BubbleChatTranslateIcon get() = Res.drawable.bubble_chat_translate_stroke_rounded
+    val BubbleChatUnlockIcon get() = Res.drawable.bubble_chat_unlock_stroke_rounded
+    val BubbleChatUploadIcon get() = Res.drawable.bubble_chat_upload_stroke_rounded
+    val BubbleChatUserIcon get() = Res.drawable.bubble_chat_user_stroke_rounded
+    val BubblesIcon get() = Res.drawable.bubbles_stroke_rounded
+    val BubbleTea01Icon get() = Res.drawable.bubble_tea_01_stroke_rounded
+    val BubbleTea02Icon get() = Res.drawable.bubble_tea_02_stroke_rounded
+    val BucketIcon get() = Res.drawable.bucket_stroke_rounded
+    val Bug01Icon get() = Res.drawable.bug_01_stroke_rounded
+    val Bug02Icon get() = Res.drawable.bug_02_stroke_rounded
+    val Building01Icon get() = Res.drawable.building_01_stroke_rounded
+    val Building02Icon get() = Res.drawable.building_02_stroke_rounded
+    val Building03Icon get() = Res.drawable.building_03_stroke_rounded
+    val Building04Icon get() = Res.drawable.building_04_stroke_rounded
+    val Building05Icon get() = Res.drawable.building_05_stroke_rounded
+    val Building06Icon get() = Res.drawable.building_06_stroke_rounded
+    val BulbIcon get() = Res.drawable.bulb_stroke_rounded
+    val BulbChargingIcon get() = Res.drawable.bulb_charging_stroke_rounded
+    val BulletIcon get() = Res.drawable.bullet_stroke_rounded
+    val BulletproofVestIcon get() = Res.drawable.bulletproof_vest_stroke_rounded
+    val BurjAlArabIcon get() = Res.drawable.burj_al_arab_stroke_rounded
+    val BurningCdIcon get() = Res.drawable.burning_cd_stroke_rounded
+    val Bus01Icon get() = Res.drawable.bus_01_stroke_rounded
+    val Bus02Icon get() = Res.drawable.bus_02_stroke_rounded
+    val Bus03Icon get() = Res.drawable.bus_03_stroke_rounded
+
+    // C
+
+    val CppIcon get() = Res.drawable.cpp_stroke_rounded
+    val Cabinet01Icon get() = Res.drawable.cabinet_01_stroke_rounded
+    val Cabinet02Icon get() = Res.drawable.cabinet_02_stroke_rounded
+    val Cabinet03Icon get() = Res.drawable.cabinet_03_stroke_rounded
+    val Cabinet04Icon get() = Res.drawable.cabinet_04_stroke_rounded
+    val CableIcon get() = Res.drawable.cable_stroke_rounded
+    val CableCarIcon get() = Res.drawable.cable_car_stroke_rounded
+    val CactusIcon get() = Res.drawable.cactus_stroke_rounded
+    val CaduceusIcon get() = Res.drawable.caduceus_stroke_rounded
+    val CafeIcon get() = Res.drawable.cafe_stroke_rounded
+    val CakeSliceIcon get() = Res.drawable.cake_slice_stroke_rounded
+    val CalculateIcon get() = Res.drawable.calculate_stroke_rounded
+    val CalculatorIcon get() = Res.drawable.calculator_stroke_rounded
+    val Calculator01Icon get() = Res.drawable.calculator_01_stroke_rounded
+    val Calendar01Icon get() = Res.drawable.calendar_01_stroke_rounded
+    val Calendar02Icon get() = Res.drawable.calendar_02_stroke_rounded
+    val Calendar03Icon get() = Res.drawable.calendar_03_stroke_rounded
+    val Calendar04Icon get() = Res.drawable.calendar_04_stroke_rounded
+    val Calendar05Icon get() = Res.drawable.calendar_05_stroke_rounded
+    val CalendarAdd01Icon get() = Res.drawable.calendar_add_01_stroke_rounded
+    val CalendarAdd02Icon get() = Res.drawable.calendar_add_02_stroke_rounded
+    val CalendarAnalysisIcon get() = Res.drawable.calendar_analysis_stroke_rounded
+    val CalendarBlock01Icon get() = Res.drawable.calendar_block_01_stroke_rounded
+    val CalendarBlock02Icon get() = Res.drawable.calendar_block_02_stroke_rounded
+    val CalendarCheckIn01Icon get() = Res.drawable.calendar_check_in_01_stroke_rounded
+    val CalendarCheckIn02Icon get() = Res.drawable.calendar_check_in_02_stroke_rounded
+    val CalendarCheckOut01Icon get() = Res.drawable.calendar_check_out_01_stroke_rounded
+    val CalendarCheckOut02Icon get() = Res.drawable.calendar_check_out_02_stroke_rounded
+    val CalendarDownload01Icon get() = Res.drawable.calendar_download_01_stroke_rounded
+    val CalendarDownload02Icon get() = Res.drawable.calendar_download_02_stroke_rounded
+    val CalendarFavorite01Icon get() = Res.drawable.calendar_favorite_01_stroke_rounded
+    val CalendarFavorite02Icon get() = Res.drawable.calendar_favorite_02_stroke_rounded
+    val CalendarFoldIcon get() = Res.drawable.calendar_fold_stroke_rounded
+    val CalendarLock01Icon get() = Res.drawable.calendar_lock_01_stroke_rounded
+    val CalendarLock02Icon get() = Res.drawable.calendar_lock_02_stroke_rounded
+    val CalendarLove01Icon get() = Res.drawable.calendar_love_01_stroke_rounded
+    val CalendarLove02Icon get() = Res.drawable.calendar_love_02_stroke_rounded
+    val CalendarMinus01Icon get() = Res.drawable.calendar_minus_01_stroke_rounded
+    val CalendarMinus02Icon get() = Res.drawable.calendar_minus_02_stroke_rounded
+    val CalendarMortarboardIcon get() = Res.drawable.calendar_mortarboard_stroke_rounded
+    val CalendarOffIcon get() = Res.drawable.calendar_off_stroke_rounded
+    val CalendarRemove01Icon get() = Res.drawable.calendar_remove_01_stroke_rounded
+    val CalendarRemove02Icon get() = Res.drawable.calendar_remove_02_stroke_rounded
+    val CalendarsIcon get() = Res.drawable.calendars_stroke_rounded
+    val CalendarSetting01Icon get() = Res.drawable.calendar_setting_01_stroke_rounded
+    val CalendarSetting02Icon get() = Res.drawable.calendar_setting_02_stroke_rounded
+    val CalendarSyncIcon get() = Res.drawable.calendar_sync_stroke_rounded
+    val CalendarUpload01Icon get() = Res.drawable.calendar_upload_01_stroke_rounded
+    val CalendarUpload02Icon get() = Res.drawable.calendar_upload_02_stroke_rounded
+    val CalendarUserIcon get() = Res.drawable.calendar_user_stroke_rounded
+    val CallIcon get() = Res.drawable.call_stroke_rounded
+    val Call02Icon get() = Res.drawable.call_02_stroke_rounded
+    val CallAddIcon get() = Res.drawable.call_add_stroke_rounded
+    val CallAdd02Icon get() = Res.drawable.call_add_02_stroke_rounded
+    val CallBlockedIcon get() = Res.drawable.call_blocked_stroke_rounded
+    val CallBlocked02Icon get() = Res.drawable.call_blocked_02_stroke_rounded
+    val CallDisabledIcon get() = Res.drawable.call_disabled_stroke_rounded
+    val CallDisabled02Icon get() = Res.drawable.call_disabled_02_stroke_rounded
+    val CallDoneIcon get() = Res.drawable.call_done_stroke_rounded
+    val CallDone02Icon get() = Res.drawable.call_done_02_stroke_rounded
+    val CallEnd01Icon get() = Res.drawable.call_end_01_stroke_rounded
 }
 
