@@ -42,13 +42,15 @@ kotlin {
         publishLibraryVariants("release")
     }
     
-    listOf(
-        iosArm64(),
-        iosSimulatorArm64()
-    ).forEach { iosTarget ->
-        iosTarget.binaries.framework {
-            baseName = "HugeiconsKMP"
-            isStatic = true
+    if (System.getenv("JITPACK") != "true") {
+        listOf(
+            iosArm64(),
+            iosSimulatorArm64()
+        ).forEach { iosTarget ->
+            iosTarget.binaries.framework {
+                baseName = "HugeiconsKMP"
+                isStatic = true
+            }
         }
     }
     

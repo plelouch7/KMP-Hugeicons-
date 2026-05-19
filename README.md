@@ -11,46 +11,23 @@ HugeiconsKMP is a Kotlin Multiplatform library that brings 800+ [Hugeicons](http
 
 ## Installation
 
-This library is published to **GitHub Packages**. GitHub Packages requires authentication even for public packages, so two steps are needed before adding the dependency.
+This library is distributed via **[JitPack](https://jitpack.io)** — no authentication required.
 
-### Step 1 — Create a GitHub Personal Access Token
+### Step 1 — Add the JitPack repository
 
-Go to **GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)** and generate a token with the `read:packages` scope.
-
-Then add your credentials to `~/.gradle/gradle.properties` (your local Gradle home, not the project):
-
-```properties
-gpr.user=YOUR_GITHUB_USERNAME
-gpr.key=YOUR_GITHUB_TOKEN
-```
-
-> These credentials stay on your machine and are never committed to source control.
-
-### Step 2 — Add the repository
-
-In your project's `settings.gradle.kts`, declare the GitHub Packages repository:
+In your project's `settings.gradle.kts`:
 
 ```kotlin
 dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven {
-            url = uri("https://maven.pkg.github.com/plelouch7/KMP-Hugeicons-")
-            credentials {
-                username = providers.gradleProperty("gpr.user")
-                    .orElse(providers.environmentVariable("GITHUB_ACTOR")).get()
-                password = providers.gradleProperty("gpr.key")
-                    .orElse(providers.environmentVariable("GITHUB_TOKEN")).get()
-            }
-        }
+        maven { url = uri("https://jitpack.io") }
     }
 }
 ```
 
-> In CI, set `GITHUB_ACTOR` and `GITHUB_TOKEN` as environment variables. GitHub Actions provides `GITHUB_TOKEN` automatically.
-
-### Step 3 — Add the dependency
+### Step 2 — Add the dependency
 
 In your shared module's `build.gradle.kts` (typically `:composeApp` or `:shared`):
 
@@ -58,11 +35,13 @@ In your shared module's `build.gradle.kts` (typically `:composeApp` or `:shared`
 kotlin {
     sourceSets {
         commonMain.dependencies {
-            implementation("com.verimsolution:hugeiconskmp:1.0.0")
+            implementation("com.github.plelouch7:hugeiconskmp:1.0.0")
         }
     }
 }
 ```
+
+Replace `1.0.0` with the [latest release tag](https://github.com/plelouch7/KMP-Hugeicons-/releases).
 
 ## Usage
 
@@ -152,25 +131,22 @@ Minimum Android SDK: as configured in the consumer app (`minSdk` in `android {}`
 ## Local build
 
 ```shell
-# Build the library
-./gradlew :composeApp:assembleRelease
-
 # Publish to Maven Local for local testing
 ./gradlew :composeApp:publishToMavenLocal
 ```
 
-After publishing locally, add `mavenLocal()` to your consumer project's repositories and use the same coordinates.
+Add `mavenLocal()` to your consumer project's repositories and use `com.github.plelouch7:hugeiconskmp:<version>`.
 
 ## Releasing a new version
 
-Releases are automated via GitHub Actions. Push a version tag to trigger publication to GitHub Packages:
+Push a version tag — JitPack picks it up automatically and builds the library:
 
 ```shell
 git tag v1.0.1
 git push origin v1.0.1
 ```
 
-Or trigger the **Release** workflow manually from the GitHub Actions tab and enter the version number.
+The release will then be available at `com.github.plelouch7:hugeiconskmp:1.0.1`.
 
 ## Project structure
 

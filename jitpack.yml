@@ -1,0 +1,6 @@
+jdk:
+  - openjdk21
+before_install:
+  - touch local.properties
+install:
+  - ./gradlew :composeApp:publishToMavenLocal --no-configuration-cache
