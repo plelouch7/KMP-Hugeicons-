@@ -18,35 +18,20 @@ compose.resources {
 }
 
 publishing {
-    val remoteMavenUrl = providers.gradleProperty("remoteMavenUrl")
-        .orElse(providers.environmentVariable("REMOTE_MAVEN_URL"))
-    val remoteMavenUsername = providers.gradleProperty("remoteMavenUsername")
-        .orElse(providers.environmentVariable("REMOTE_MAVEN_USERNAME"))
-    val remoteMavenPassword = providers.gradleProperty("remoteMavenPassword")
-        .orElse(providers.environmentVariable("REMOTE_MAVEN_PASSWORD"))
-
     repositories {
-        if (remoteMavenUrl.isPresent) {
-            maven {
-                name = "remote"
-                url = uri(remoteMavenUrl.get())
-                credentials {
-                    username = remoteMavenUsername.orNull
-                    password = remoteMavenPassword.orNull
-                }
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/plelouch7/KMP-Hugeicons-")
+            credentials {
+                username = providers.environmentVariable("GITHUB_ACTOR").orNull
+                password = providers.environmentVariable("GITHUB_TOKEN").orNull
             }
         }
     }
 }
 
-val signingKeyId = providers.gradleProperty("signingInMemoryKeyId").orNull
-    ?: System.getenv("ORG_GRADLE_PROJECT_signingInMemoryKeyId")
-
 mavenPublishing {
-    publishToMavenCentral()
-    if (!signingKeyId.isNullOrBlank()) {
-        signAllPublications()
-    }
+    // Publishes to GitHub Packages via the publishing block above
 }
 
 kotlin {

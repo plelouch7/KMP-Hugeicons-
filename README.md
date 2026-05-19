@@ -1,17 +1,58 @@
 # HugeiconsKMP
 
-HugeiconsKMP is a Kotlin Multiplatform (KMP) library that brings the extensive [Hugeicons](https://hugeicons.com/) collection to your Compose Multiplatform projects. It provides high-quality SVG assets optimized for Android, iOS, and Desktop JVM targets.
+HugeiconsKMP is a Kotlin Multiplatform library that brings 800+ [Hugeicons](https://hugeicons.com/) to your Compose Multiplatform projects. All icons are stroke/rounded SVG assets, optimized for Android, iOS, and Desktop (JVM).
 
 ## Features
 
-- **Easy to use**: Simple `HugeIcon` composable.
-- **Type-safe**: All icons are accessible via the `HugeIcons` object.
-- **Multiplatform**: Supports Android, iOS, and Desktop (JVM).
-- **Customizable**: Easy to change size, color, and more.
+- **Simple API**: One `HugeIcon` composable handles everything.
+- **Type-safe**: All icons are accessible via the `HugeIcons` object — no string resources.
+- **Multiplatform**: Android, iOS (arm64 + Simulator), Desktop JVM.
+- **Customizable**: Control size, color, and anything else via `Modifier` and `tint`.
 
 ## Installation
 
-Add the library to your shared module's `build.gradle.kts` (usually `:composeApp` or `:shared`):
+This library is published to **GitHub Packages**. GitHub Packages requires authentication even for public packages, so two steps are needed before adding the dependency.
+
+### Step 1 — Create a GitHub Personal Access Token
+
+Go to **GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)** and generate a token with the `read:packages` scope.
+
+Then add your credentials to `~/.gradle/gradle.properties` (your local Gradle home, not the project):
+
+```properties
+gpr.user=YOUR_GITHUB_USERNAME
+gpr.key=YOUR_GITHUB_TOKEN
+```
+
+> These credentials stay on your machine and are never committed to source control.
+
+### Step 2 — Add the repository
+
+In your project's `settings.gradle.kts`, declare the GitHub Packages repository:
+
+```kotlin
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url = uri("https://maven.pkg.github.com/plelouch7/KMP-Hugeicons-")
+            credentials {
+                username = providers.gradleProperty("gpr.user")
+                    .orElse(providers.environmentVariable("GITHUB_ACTOR")).get()
+                password = providers.gradleProperty("gpr.key")
+                    .orElse(providers.environmentVariable("GITHUB_TOKEN")).get()
+            }
+        }
+    }
+}
+```
+
+> In CI, set `GITHUB_ACTOR` and `GITHUB_TOKEN` as environment variables. GitHub Actions provides `GITHUB_TOKEN` automatically.
+
+### Step 3 — Add the dependency
+
+In your shared module's `build.gradle.kts` (typically `:composeApp` or `:shared`):
 
 ```kotlin
 kotlin {
@@ -23,13 +64,9 @@ kotlin {
 }
 ```
 
-> **Note:** Replace `1.0.0` with the version you published or the latest available.
-
 ## Usage
 
-### Displaying an Icon
-
-Use the `HugeIcon` composable and choose an icon from the `HugeIcons` collection:
+### Basic example
 
 ```kotlin
 import androidx.compose.foundation.layout.size
@@ -40,23 +77,23 @@ import com.verimsolution.hugeiconskmp.HugeIcon
 import com.verimsolution.hugeiconskmp.HugeIcons
 
 @Composable
-fun MyFeature() {
+fun MyScreen() {
     HugeIcon(
         icon = HugeIcons.Activity01Icon,
-        contentDescription = "Activity Icon",
-        tint = Color.Blue,
+        contentDescription = "Activity",
+        tint = Color(0xFF1A73E8),
         modifier = Modifier.size(24.dp)
     )
 }
 ```
 
-### Direct Access
+### Using `painterResource` directly
 
-If you prefer to use the `painterResource` directly:
+`HugeIcons` properties return a `DrawableResource`, so you can also use them with the standard `Icon` composable or any API that accepts a `Painter`:
 
 ```kotlin
-import org.jetbrains.compose.resources.painterResource
 import androidx.compose.material3.Icon
+import org.jetbrains.compose.resources.painterResource
 import com.verimsolution.hugeiconskmp.HugeIcons
 
 @Composable
@@ -68,41 +105,83 @@ fun DirectUsage() {
 }
 ```
 
-## Local Build & Publication
+### Icon naming convention
 
-### Build
+All icons follow the pattern `{IconName}Icon` in PascalCase. The underlying resource files are named `{icon_name}_stroke_rounded`. Examples:
 
-```shell
-./gradlew :composeApp:assembleRelease
+| `HugeIcons` property          | Resource file                          |
+|-------------------------------|----------------------------------------|
+| `HugeIcons.Activity01Icon`    | `activity_01_stroke_rounded`           |
+| `HugeIcons.AlarmClockIcon`    | `alarm_clock_stroke_rounded`           |
+| `HugeIcons.FirstBracketIcon`  | `_1st_bracket_stroke_rounded`          |
+| `HugeIcons.AiBrain01Icon`     | `ai_brain_01_stroke_rounded`           |
+| `HugeIcons.CalendarSyncIcon`  | `calendar_sync_stroke_rounded`         |
+
+Icons that start with a number are prefixed with the written-out number (e.g., `1st` → `FirstBracketIcon`, `3d` → `ThreeDMoveIcon`).
+
+### Tint and theming
+
+By default, `tint = Color.Unspecified` inherits the current content color from the composition. Pass an explicit `Color` to override:
+
+```kotlin
+// Inherit from MaterialTheme
+HugeIcon(icon = HugeIcons.Activity01Icon, contentDescription = null)
+
+// Fixed tint
+HugeIcon(icon = HugeIcons.Activity01Icon, contentDescription = null, tint = Color.Red)
+
+// Theme color
+HugeIcon(
+    icon = HugeIcons.Activity01Icon,
+    contentDescription = null,
+    tint = MaterialTheme.colorScheme.primary
+)
 ```
 
-### Local Publication
+## Supported targets
 
-To use the library locally before a formal release:
+| Target                  | Kotlin target        |
+|-------------------------|----------------------|
+| Android                 | `androidTarget()`    |
+| iOS (device)            | `iosArm64()`         |
+| iOS (Simulator)         | `iosSimulatorArm64()`|
+| Desktop (JVM)           | `jvm()`              |
+
+Minimum Android SDK: as configured in the consumer app (`minSdk` in `android {}`).
+
+## Local build
 
 ```shell
+# Build the library
+./gradlew :composeApp:assembleRelease
+
+# Publish to Maven Local for local testing
 ./gradlew :composeApp:publishToMavenLocal
 ```
 
-## Maven Central Deployment
+After publishing locally, add `mavenLocal()` to your consumer project's repositories and use the same coordinates.
 
-The project is configured for Maven Central publication using the Vanniktech Gradle Maven Publish plugin.
+## Releasing a new version
 
-To release a new version:
-1. Ensure all secrets are configured in GitHub Actions (`MAVEN_CENTRAL_USERNAME`, `MAVEN_CENTRAL_PASSWORD`, `SIGNING_IN_MEMORY_KEY`, etc.).
-2. Tag the release:
-   ```shell
-   git tag v1.0.0
-   git push origin v1.0.0
-   ```
+Releases are automated via GitHub Actions. Push a version tag to trigger publication to GitHub Packages:
 
-## Project Structure
+```shell
+git tag v1.0.1
+git push origin v1.0.1
+```
 
-- `composeApp/src/commonMain`: Shared icons, `HugeIcon` composable, and resources.
-- `composeApp/src/androidMain`: Android-specific configuration.
-- `composeApp/src/iosMain`: iOS target support.
-- `composeApp/src/jvmMain`: Desktop JVM target support.
+Or trigger the **Release** workflow manually from the GitHub Actions tab and enter the version number.
+
+## Project structure
+
+```
+composeApp/src/
+├── commonMain/   # HugeIcon composable, HugeIcons object, all XML resources
+├── androidMain/  # Android-specific tooling
+├── iosMain/      # iOS target entry point
+└── jvmMain/      # Desktop JVM entry point
+```
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License — see the [LICENSE](LICENSE) file for details.
